@@ -62,6 +62,7 @@ ul li{
   font-size: 14px;
   height: 20px;
   padding: 13px 0px;
+  color: white;
 }
 .last-listitem{
   width: 231px;
