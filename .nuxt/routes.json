@@ -1,0 +1,44 @@
+[
+  {
+    "name": "aanbod",
+    "path": "/aanbod",
+    "component": "/Users/lottevanthof/Desktop/stage/Website-code/Power2Kids/Power2Kids/power2Kids/pages/aanbod/index.vue",
+    "chunkName": "pages/aanbod/index"
+  },
+  {
+    "name": "aanpak",
+    "path": "/aanpak",
+    "component": "/Users/lottevanthof/Desktop/stage/Website-code/Power2Kids/Power2Kids/power2Kids/pages/aanpak/index.vue",
+    "chunkName": "pages/aanpak/index"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/lottevanthof/Desktop/stage/Website-code/Power2Kids/Power2Kids/power2Kids/pages/contact/index.vue",
+    "chunkName": "pages/contact/index"
+  },
+  {
+    "name": "overmij",
+    "path": "/overmij",
+    "component": "/Users/lottevanthof/Desktop/stage/Website-code/Power2Kids/Power2Kids/power2Kids/pages/overmij/index.vue",
+    "chunkName": "pages/overmij/index"
+  },
+  {
+    "name": "rouw&verlies",
+    "path": "/rouw&verlies",
+    "component": "/Users/lottevanthof/Desktop/stage/Website-code/Power2Kids/Power2Kids/power2Kids/pages/rouw&verlies/index.vue",
+    "chunkName": "pages/rouw&verlies/index"
+  },
+  {
+    "name": "succesverhalen",
+    "path": "/succesverhalen",
+    "component": "/Users/lottevanthof/Desktop/stage/Website-code/Power2Kids/Power2Kids/power2Kids/pages/succesverhalen/index.vue",
+    "chunkName": "pages/succesverhalen/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/lottevanthof/Desktop/stage/Website-code/Power2Kids/Power2Kids/power2Kids/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
