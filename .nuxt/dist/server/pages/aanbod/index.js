@@ -160,7 +160,7 @@ if(content.locals) module.exports = content.locals;
 // add CSS to SSR context
 var add = __webpack_require__(3).default
 module.exports.__inject__ = function (context) {
-  add("8bcb09be", content, true, context)
+  add("0d920d34", content, true, context)
 };
 
 /***/ }),
@@ -326,9 +326,9 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_7a605b40_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(129);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_7a605b40_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_7a605b40_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_7a605b40_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_7a605b40_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_2e799afc_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(129);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_2e799afc_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_2e799afc_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_2e799afc_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_vue_style_loader_index_js_ref_3_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_3_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_2e799afc_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -343,7 +343,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(147);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".aanbod[data-v-7a605b40]{min-height:85vh;background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:top;background-repeat:no-repeat;background-size:cover;background-attachment:scroll}.white-background[data-v-7a605b40]{background-color:hsla(0,0%,100%,.5);height:100%;padding-bottom:80px}@media (min-width:1300px){.white-background[data-v-7a605b40]{background-color:transparent}}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".aanbod[data-v-2e799afc]{min-height:85vh;background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-position:top;background-repeat:no-repeat;background-size:cover;background-attachment:scroll}.white-background[data-v-2e799afc]{background-color:hsla(0,0%,100%,.5);height:100%;padding-bottom:80px}@media (min-width:1300px){.white-background[data-v-2e799afc]{background-color:transparent}}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
@@ -364,12 +364,12 @@ module.exports = __webpack_require__.p + "img/aanbodbg.68688a7.png";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/aanbod/index.vue?vue&type=template&id=7a605b40&scoped=true&lang=html&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_vm._ssrNode("<section class=\"aanbod\" data-v-7a605b40>","</section>",[_vm._ssrNode("<div class=\"white-background\" data-v-7a605b40>","</div>",[_c('AanbodInfo',{key:_vm.story.content._id,attrs:{"blok":_vm.story.content}}),_vm._ssrNode(" "),_c('Pakketten',{key:_vm.story.content._id,attrs:{"blok":_vm.story.content}})],2)]),_vm._ssrNode(" "),_c('PakkettenInfo',{key:_vm.story.content._id,attrs:{"blok":_vm.story.content}})],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/aanbod/index.vue?vue&type=template&id=2e799afc&scoped=true&lang=html&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',[_vm._ssrNode("<section class=\"aanbod\" data-v-2e799afc>","</section>",[_vm._ssrNode("<div class=\"white-background\" data-v-2e799afc>","</div>",[_c('AanbodInfo',{key:_vm.story.content._id,attrs:{"blok":_vm.story.content}}),_vm._ssrNode(" "),_c('Pakketten',{key:_vm.story.content._id,attrs:{"blok":_vm.story.content}})],2)]),_vm._ssrNode(" "),_c('PakkettenInfo',{key:_vm.story.content._id,attrs:{"blok":_vm.story.content}})],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/aanbod/index.vue?vue&type=template&id=7a605b40&scoped=true&lang=html&
+// CONCATENATED MODULE: ./pages/aanbod/index.vue?vue&type=template&id=2e799afc&scoped=true&lang=html&
 
 // EXTERNAL MODULE: ./components/Aanbod/Aanbod-info.vue + 4 modules
 var Aanbod_info = __webpack_require__(127);
@@ -419,19 +419,51 @@ var Pakketten_info = __webpack_require__(138);
     };
   },
 
-  asyncData(context) {
-    // Check if we are in the editor mode
-    let version = context.query._storyblok || context.isDev ? 'draft' : 'published'; // Load the JSON from the API
+  mounted() {
+    this.$storybridge(() => {
+      const storyblokInstance = new StoryblokBridge(); // Use the input event for instant update of content
 
-    return context.app.$storyapi.get(`cdn/stories/aanbod`, {
-      version: version
+      storyblokInstance.on('input', event => {
+        console.log(this.story.content);
+
+        if (event.story.id === this.story.id) {
+          this.story.content = event.story.content;
+        }
+      }); // Use the bridge to listen the events
+
+      storyblokInstance.on(['published', 'change'], event => {
+        // window.location.reload()
+        this.$nuxt.$router.go({
+          path: this.$nuxt.$router.currentRoute,
+          force: true
+        });
+      });
+    });
+  },
+
+  asyncData(context) {
+    // // This what would we do in real project
+    // const version = context.query._storyblok || context.isDev ? 'draft' : 'published'
+    // const fullSlug = (context.route.path == '/' || context.route.path == '') ? 'home' : context.route.path
+    // Load the JSON from the API - loadig the home content (index page)
+    return context.app.$storyapi.get('cdn/stories/aanbod', {
+      version: 'draft'
     }).then(res => {
       return res.data;
     }).catch(res => {
-      context.error({
-        statusCode: res.response.status,
-        message: res.response.data
-      });
+      if (!res.response) {
+        console.error(res);
+        context.error({
+          statusCode: 404,
+          message: 'Failed to receive content form api'
+        });
+      } else {
+        console.error(res.response.data);
+        context.error({
+          statusCode: res.response.status,
+          message: res.response.data
+        });
+      }
     });
   }
 
@@ -460,7 +492,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "7a605b40",
+  "2e799afc",
   "204faa14"
   
 )

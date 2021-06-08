@@ -17,24 +17,6 @@
   "Review": {
     "description": "Auto imported from components/Review.vue"
   },
-  "AanpakNietZoalsJeWilt": {
-    "description": "Auto imported from components/Aanpak/NietZoalsJeWilt.vue"
-  },
-  "AanpakSamenBereiken": {
-    "description": "Auto imported from components/Aanpak/SamenBereiken.vue"
-  },
-  "AanpakTraject": {
-    "description": "Auto imported from components/Aanpak/Traject.vue"
-  },
-  "HomeHulpIdeaalComponent": {
-    "description": "Auto imported from components/Home/HulpIdeaalComponent.vue"
-  },
-  "HomeLandingComponent": {
-    "description": "Auto imported from components/Home/LandingComponent.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/Footer/Footer.vue"
-  },
   "AanbodInfo": {
     "description": "Auto imported from components/Aanbod/Aanbod-info.vue"
   },
@@ -44,6 +26,30 @@
   "AanbodPakketten": {
     "description": "Auto imported from components/Aanbod/Pakketten.vue"
   },
+  "AanpakNietZoalsJeWilt": {
+    "description": "Auto imported from components/Aanpak/NietZoalsJeWilt.vue"
+  },
+  "AanpakSamenBereiken": {
+    "description": "Auto imported from components/Aanpak/SamenBereiken.vue"
+  },
+  "AanpakTraject": {
+    "description": "Auto imported from components/Aanpak/Traject.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer/Footer.vue"
+  },
+  "HomeHulpIdeaalComponent": {
+    "description": "Auto imported from components/Home/HulpIdeaalComponent.vue"
+  },
+  "HomeLandingComponent": {
+    "description": "Auto imported from components/Home/LandingComponent.vue"
+  },
+  "NavigationNavigationbar": {
+    "description": "Auto imported from components/Navigation/Navigationbar.vue"
+  },
+  "NavigationNavigationbarOvermij": {
+    "description": "Auto imported from components/Navigation/NavigationbarOvermij.vue"
+  },
   "RouwVerliesBegeleiding": {
     "description": "Auto imported from components/RouwVerlies/Begeleiding.vue"
   },
@@ -52,12 +58,6 @@
   },
   "RouwVerliesSignalen": {
     "description": "Auto imported from components/RouwVerlies/Signalen.vue"
-  },
-  "NavigationNavigationbar": {
-    "description": "Auto imported from components/Navigation/Navigationbar.vue"
-  },
-  "NavigationNavigationbarOvermij": {
-    "description": "Auto imported from components/Navigation/NavigationbarOvermij.vue"
   },
   "SuccesverhalenReview": {
     "description": "Auto imported from components/Succesverhalen/Review.vue"
