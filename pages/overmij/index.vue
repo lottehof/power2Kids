@@ -177,6 +177,7 @@ export default {
 }
 .overmij-image{
   width: 90%;
+  height: 500px;
   margin-top: 20px;
   text-align: center;
   margin-bottom: 20px;

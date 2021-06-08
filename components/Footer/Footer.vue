@@ -63,6 +63,7 @@ ul li{
   height: 20px;
   padding: 13px 0px;
   color: white;
+  text-decoration: none;
 }
 .last-listitem{
   width: 231px;
