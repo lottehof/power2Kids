@@ -42,7 +42,6 @@ export default {
   padding: 20px;
 }
 
-
 @media (min-width: 768px) {
   .hulp-listitems{
     display: flex;
@@ -60,14 +59,14 @@ export default {
 }
 
 @media (min-width: 1440px) {
-.second-box{
-  height: 550px;
-}
-.hulp-title{
-  font-size: 36px;
-}
-.hulp-title-underline{
-  width: 500px;
-}
+  .second-box{
+    height: 550px;
+  }
+  .hulp-title{
+    font-size: 36px;
+  }
+  .hulp-title-underline{
+    width: 500px;
+  }
 }
 </style>

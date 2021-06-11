@@ -40,6 +40,10 @@ export default {
   width: 90%;
   margin: 0 auto;
 }
+figure{
+  margin: 0 auto;
+  text-align: center;
+}
 
 @media (min-width: 1100px) {
   .rouw-container-three{

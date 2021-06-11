@@ -36,14 +36,11 @@ export default {
 }
 .aanpak-sub-title{
   font-size: 16px;
-  /* text-align: center; */
   margin-top: 20px;
 }
 .aanpak-content-p{
   font-size: 12px;
   width: 100%;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
   white-space: pre-line;
   margin-top: 20px;
 }
@@ -64,46 +61,39 @@ export default {
   border: none;
   background-color: #9490A7;
 }
+figure{
+  margin: 0 auto;
+  text-align: center;
+}
 
 @media (min-width: 1200px) {
-.aanpak-container-two{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 1160px;
-  margin: 0 auto;
-  column-gap: 100px;
-}
-.aanpak-content-two{
-margin: 0;
-}
-.aanpak-sub-title{
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-.aanpak-content-p{
-  font-size: 14px;
-  width: 530px;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
-  white-space: pre-line;
-}
-
-.hoewerkik-image{
-  width: 530px;
-  height: 454px;
-  margin-top: 70px;
-}
-.line{
-  height: 2px;
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 50px;
-  border: none;
-  background-color: #9490A7;
-}
+  .aanpak-container-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1160px;
+    margin: 0 auto;
+    column-gap: 100px;
+  }
+  .aanpak-content-two{
+    margin: 0;
+  }
+  .aanpak-sub-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .aanpak-content-p{
+    font-size: 14px;
+    width: 530px;
+  }
+  .hoewerkik-image{
+    width: 530px;
+    height: 454px;
+    margin-top: 70px;
+  }
+  .line{
+    width: 60%;
+  }
 }
 </style>

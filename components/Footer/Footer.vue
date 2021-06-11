@@ -6,9 +6,12 @@
     </div>
     <section class="footer-grid">
     <div class="socialmedia-icons">
-      <i class="fab fa-linkedin-in"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-facebook-f"></i>
+      <a class="link" href="https://www.linkedin.com/in/hannevanwilligenburg/" target="_blank">
+      <i class="fab fa-linkedin-in" ></i>
+      </a>
+      <a  class="link" href="https://www.instagram.com/praktijk_power2kids/" target="_blank">
+      <i class="fab fa-instagram" href="https://www.instagram.com/praktijk_power2kids/" target="_blank"></i>
+      </a>
     </div>
 
     <div class="footer-content">
@@ -37,6 +40,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+*{
+  text-align: left;
+}
 .Footer{
   height: 370px;
   width: 100vw;
@@ -44,7 +50,9 @@ export default {
   color: white;
   padding-left: 20px;
   position: relative;
-
+}
+.link{
+  color: white;
 }
 .footer-logo-img{
   width: 150px;
@@ -97,34 +105,32 @@ ul li{
   margin: 20px;
 }
 @media (min-width: 750px) {
-.Footer{
-  height: 236px;
-}
-.footer-grid{
-  display: flex;
-}
-.footer-flex{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90%;
-}
-.footer-logo-img{
-  height: 50px;
-  width: 210px;
-  margin-top: 0;
-}
-.footer-content{
-  font-weight: bold;
-}
-.footer-content h4{
-  font-size: 16px;
-  margin-bottom: 0px;
-}
-.bottom-copyright{
-  text-align: center;
-  padding-top: 0px;
-}
-
+  .Footer{
+    height: 236px;
+  }
+  .footer-grid{
+    display: flex;
+  }
+  .footer-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+  .footer-logo-img{
+    height: 50px;
+    width: 210px;
+    margin-top: 0;
+  }
+  .footer-content{
+    font-weight: bold;
+  }
+  .bottom-copyright{
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
 }
 </style>

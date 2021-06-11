@@ -56,7 +56,7 @@ export default {
   height: 462px;
   margin: 10px;
   background-color: white;
-  margin-top: 40px;
+  margin-top: 20px;
   position: relative;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
@@ -94,100 +94,45 @@ export default {
 .aanbod-listitems-pakket{
   position: absolute;
   top: 17%;
+  left: 4%;
 }
 .consult{
   top: 27%;
 }
-/* .aanbod-listitems-pakket ul li{
-    font-size: 14px;
-    color: black;
-    background: url('~/assets/img/sterklein.png') no-repeat left center;
-    padding: 10px 10px 10px 35px;
-    list-style: none;
-    margin: 0;
-    vertical-align: middle;
-    margin-left: 20px;
-    margin-bottom: 15px;
-
-} */
-
 .losconsult{
   height: 300px;
 }
 
-@media (min-width: 768px) {
-
-}
-
 @media (min-width: 1300px) {
-.aanbod-pakketten{
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: 562px;
-  margin-top: 40px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-}
-.pakket{
-  width: 390px;
-  height: 562px;
-  background-color: white;
-  margin-top: 40px;
-  position: relative;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
-  box-shadow: 0 10px 6px -6px #777;
-}
-.pakket-top{
-  height: 65px;
-  background-color: #F6D6BE;
-  position: absolute;
-  top: 0;
-  width: 390px;
-}
-
-.pakket-bottom{
-  position: absolute;
-  bottom: 0;
-}
-.pakket-title{
-  font-size: 26px;
-  font-weight: bold;
-  margin-left: 58px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  height: 65px;
-  color: #234A71;
-}
-.pakket-prijs{
-  font-size: 26px;
-  font-weight: bold;
-  text-align: center;
-  width: 390px;
-  height: 42px;
-}
-.kindGezin{
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.aanbod-listitems{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  height: 10vh;
-}
-.aanbod-listitems-pakket{
-  position: absolute;
-  top: 17%;
-}
-.losconsult{
-  height: 400px;
-}
-.consult{
-  top: 22%;
-}
+  .aanbod-pakketten{
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .pakket{
+    width: 390px;
+    height: 562px;
+  }
+  .pakket-top{
+    width: 390px;
+  }
+  .pakket-prijs{
+    width: 390px;
+  }
+  .kindGezin{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .aanbod-listitems{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 10vh;
+  }
+  .losconsult{
+    height: 400px;
+  }
+  .consult{
+    top: 22%;
+  }
 }
 </style>

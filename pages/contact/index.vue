@@ -61,10 +61,13 @@ export default {
   background-attachment: scroll;
   padding-bottom: 30px;
 }
+.contact-title{
+  text-align: center;
+}
 .title-container{
   margin-bottom: 20px;
   width: 100vw;
-  text-align: center;
+
   padding-top: 30px;
 }
 .contact-underline{
@@ -75,7 +78,6 @@ export default {
   background-color: #043652;
   border: none;
 }
-
 .contact-content{
   width: 90%;
   margin: 0 auto;
@@ -83,10 +85,11 @@ export default {
 .contact-content-p{
   font-size: 14px;
   width: 90%;
-  line-height: 128.4%;
-  letter-spacing: 0.13em;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
   white-space: pre-line;
-  /* margin-left: 15px; */
 }
 .contact-box{
   width: 300px;
@@ -97,16 +100,13 @@ export default {
   grid-template-columns: 1fr;
   padding-bottom: 30px;
   margin-top: 30px;
-
 }
-.contact-box
-{
+.contact-box{
   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-.contact-box:before, .contact-box:after
-{
+.contact-box:before, .contact-box:after{
   content:"";
   position:absolute;
   z-index:-1;
@@ -120,8 +120,7 @@ export default {
   -moz-border-radius:100px / 10px;
   border-radius:100px / 10px;
 }
-.contact-box:after
-{
+.contact-box:after{
   right:10px;
   left:auto;
   -webkit-transform:skew(8deg) rotate(3deg);
@@ -140,7 +139,6 @@ export default {
   margin-right: 15px;
   margin-left: 20px;
 }
-
 .contact-listitem{
   display: flex;
   align-items: center;
@@ -165,115 +163,66 @@ export default {
     width: 80%;
     height: 350px;
     background-color: #234A71;
-    margin: 0 auto;
+    position: absolute;
+    top: 27%;
+    left: 12%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 30px;
-    margin-top: 30px;
-
   }
-  .contact-image{
-    width: 300px;
-  }
-  .contact-content{
+ .contact-content{
     width: 80%;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 }
 @media (min-width:1300px) {
-.contact{
-  height: 100vh;
-  background-image: url('@/assets/img/contactbg.png');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-}
-.title-container{
-  margin-bottom: 20px;
-  width: 100vw;
-  text-align: center;
+  .contact-title{
+    font-size: 40px;
+    padding-top: 50px;
+    color: #043652;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 
-}
-.contact-title{
-  font-size: 40px;
-  padding-top: 50px;
-  color: #043652;
-  font-weight: bold;
-  margin-bottom: 10px;
-
-}
-.contact-underline{
-  width: 110px;
-  margin: 0 auto;
-  height: 2px;
-  color: #043652;
-  background-color: #043652;
-  border: none;
-}
-.contact-content{
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-.contact-content-p{
-  font-size: 18px;
-  width: 800px;
-  line-height: 128.4%;
-  letter-spacing: 0.13em;
-  white-space: pre-line;
-  text-align: center;
-  margin-left: 50px;
-}
-.contact-box{
-  width: 800px;
-  height: 503px;
-  background-color: #234A71;
-  position: absolute;
-  top: 40%;
-  left: 22%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.left-side{
-  width: 430px;
-  height: 503px;
-}
-.right-side{
-  margin-top: 30px;
-  margin-left: 10px;
-}
-.contact-listitem{
-  display: grid;
-}
-.icon{
-  width: 40px;
-  height: 40px;
-  color: white;
-  margin-right: 15px;
-}
-.contact-listitem{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 370px;
-  height: 40px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  white-space: pre-line;
-  margin-top: 40px;
-}
-.contact-listitem-p{
-  width: 270px;
-}
-.contact-image{
-  width: 430px;
-}
+  .contact-content{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .contact-content-p{
+    font-size: 18px;
+    width: 800px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .contact-box{
+    width: 800px;
+    height: 503px;
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .left-side{
+    width: 430px;
+    height: 503px;
+  }
+  .right-side{
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .contact-listitem{
+    width: 370px;
+    font-size: 18px;
+  }
+  .contact-listitem-p{
+    width: 270px;
+  }
+  .contact-image{
+    width: 430px;
+  }
 }
 </style>

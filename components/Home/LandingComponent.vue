@@ -1,26 +1,26 @@
 <template lang="html">
   <div class="landing-box">
-    <div class="white-background">
-      <section class="landing-container">
-        <div class="container-item">
-          <h1 class="landing-title">{{ blok.title}}</h1>
-          <section class="landing-content"  v-html="$options.filters.markdown(blok.content)"></section>
-        </div>
-
-        <div class="container-item">
+    <div class="landing-container">
+      <div class="landing-left">
+        <div class="image-container">
           <figure>
-            <img class="start-foto" :src="blok.image" alt="Hanne">
-            <figcaption class="figcaption">{{blok.figcaption}}</figcaption>
+            <img class="landing-image" :src="blok.image" alt="Hanne">
           </figure>
         </div>
+      </div>
+      <div class="landing-right">
+        <div class="landing-content">
+          <h1 class="landing-title">{{ blok.title}}</h1>
+          <section class="landing-content-p"  v-html="$options.filters.markdown(blok.content)"></section>
+        </div>
+      </div>
+  </div>
+      <section class="button-container">
+        <nuxt-link to="/aanpak"><button type="button" name="button" class="home-button">Mijn aanpak</button></nuxt-link>
+        <nuxt-link to="/aanbod"><button type="button" name="button" class="home-button second">Aanbod</button></nuxt-link>
+        <nuxt-link to="/succesverhalen"><button type="button" name="button" class="home-button third">Ervaringen</button></nuxt-link>
       </section>
 
-      <section class="button-container">
-        <nuxt-link to="/aanpak"><button type="button" name="button" class="home-button"><img src="@/assets/img/ster.png" alt="" class="star">Mijn aanpak</button></nuxt-link>
-        <nuxt-link to="/aanbod"><button type="button" name="button" class="home-button second"><img src="@/assets/img/ster.png" alt="" class="star">Aanbod</button></nuxt-link>
-        <nuxt-link to="/succesverhalen"><button type="button" name="button" class="home-button third"><img src="@/assets/img/ster.png" alt="" class="star">Succes verhalen</button></nuxt-link>
-      </section>
-    </div>
   </div>
 
 </template>
@@ -40,26 +40,29 @@ export default {
 .landing-box{
   height: auto;
   width: 100%;
-  background-image: url("~/assets/img/homebg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* padding: 20px; */
-    margin: 0 auto;
-}
-.white-background{
-    background-color: rgba(255, 255, 255, 0.4);
-    height: 100%;
+  margin: 0 auto;
 }
 .landing-container{
+  display: grid;
+  grid-template-columns:  1fr;
+}
+.landing-left{
+  grid-row: 2;
+}
+.image-container{
+
+}
+.landing-image{
   width: 90%;
-  margin: 0 auto;
+  height: 90%;
+}
+.landing-right{
+
 }
 .landing-title{
   font-size: 24px;
-  text-align: center;
   margin-bottom: 15px;
-  padding-top: 20px;
+  line-height: 21px;
   color: #043652;
   width: 100%;
 }
@@ -73,29 +76,16 @@ export default {
   margin-bottom: 30px;
   height: auto;
   width: 90%;
-    margin: 0 auto;
-}
-.underline{
-  text-decoration: underline;
-}
-.start-foto{
-  width: 300px;
-
+  margin: 0 auto;
 }
 figure{
   text-align: center;
   margin-top: 20px;
 }
-.figcaption{
-  font-size: 16px;
-  color: #9490A7;
-  font-weight: bold;
-  margin-top: 10px;
-  text-align: center;
-}
+
 .button-container{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .home-button{
   width: 250px;
@@ -105,16 +95,13 @@ figure{
   font-size: 18px;
   color: #043652;
   background-color: white;
-  border: 2px solid #E2CFC5;
+  border: 2px solid #043652;
   cursor: pointer;
   position: relative;
   margin-bottom: 20px;
+  text-align: center;
 }
-.star{
-  position: absolute;
-  margin-top: -11px;
-  left: 5%;
-}
+
 .home-button:hover{
   background-color: #9490A7;
   color: white;
@@ -124,77 +111,83 @@ figure{
 @media (min-width: 768px) {
   .landing-container{
     width: 600px;
-
+      margin: 0 auto;
   }
   .landing-content{
     width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
   }
-  figure{
+}
+@media (min-width:1300px) {
+  .landing-container{
+    width: 100vw;
+    display: grid;
+    height: 780px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .landing-title{
+    margin-bottom: 15px;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 36px;
+    line-height: 41px;
+    color: #234A71;
+    margin-top: 60px;
+    text-align: left;
+  }
+  .landing-content{
+    white-space: pre-line;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #043652;
+    text-align: justify;
+    width: 603px;
+    height: auto;
+  }
+  .landing-image{
+    position: absolute;
+    width: 659px;
+    height: 840px;
+    left: 0px;
+    top: 0px;
+  }
+  .landing-left{
+    grid-row: 1;
+    width: 659px;
+  }
+  .landing-right{
+    width: 673px;
+  }
+
+  .button-container{
+    margin-bottom: 30px;
+  }
+  .home-button{
+    width: 300px;
+    height: 70px;
+    font-size: 26px;
+    margin-bottom: 0;
     text-align: center;
   }
-}
-@media (min-width:1440px) {
-.landing-box{
-  height: 90vh;
-}
-.landing-box::before{
-  content: "";
-  background-color: rgba(0,0,0,0.55);
-}
-.landing-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.landing-title{
-  font-size: 40px;
-  margin-top: 40px;
-  text-align: left;
-}
-.container-item{
-  height: 500px;
-  margin-top: 150px;
-}
-
-.landing-content{
-  width: 688px;
-  white-space: pre-line;
-  margin-right: 215px;
-  font-size: 18px;
-
-}
-.start-foto{
-  width: 440px;
-  height: 494px;
-  margin-right: 95px;
-
-}
-.figcaption{
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px;
-  width: 440px;
-}
-.button-container{
-  margin: 0px 100px;
-  text-align: center;
-  margin-top: 100px;
-}
-.home-button{
-  width: 300px;
-  height: 70px;
-  font-size: 26px;
-  margin-bottom: 0;
-}
-
-.star{
-  margin-top: -3px;
-  left: 5%;
-}
-.second{
-  margin: 0 170px;
-}
-
+  .second{
+    margin: 0 170px;
+  }
+  @media (min-width: 1500px) {
+    .landing-image{
+      position: absolute;
+      width: 789px;
+      height: 840px;
+      left: 0px;
+      top: 0px;
+    }
+    .landing-right{
+      width: 693px;
+    }
+  }
 }
 </style>

@@ -10,9 +10,13 @@
 
       <section class="overmij-content-article" v-html="$options.filters.markdown(story.content.content)"></section>
       <div class="socialmedia-icons">
-        <i class="fab fa-facebook-f"></i>
+        <!-- <i class="fab fa-facebook-f"></i> -->
+        <a class="link" href="https://www.instagram.com/praktijk_power2kids/" target="_blank">
         <i class="fab fa-instagram"></i>
+        </a>
+        <a class="link" href="https://www.linkedin.com/in/hannevanwilligenburg/" target="_blank">
         <i class="fab fa-linkedin-in"></i>
+        </a>
       </div>
       <hr class="socialmedia-icons-line">
           </div>
@@ -44,18 +48,13 @@ export default {
    mounted () {
      this.$storybridge(() => {
        const storyblokInstance = new StoryblokBridge()
-
-       // Use the input event for instant update of content
        storyblokInstance.on('input', (event) => {
          console.log(this.story.content)
          if (event.story.id === this.story.id) {
            this.story.content = event.story.content
          }
        })
-
-       // Use the bridge to listen the events
        storyblokInstance.on(['published', 'change'], (event) => {
-         // window.location.reload()
          this.$nuxt.$router.go({
            path: this.$nuxt.$router.currentRoute,
            force: true,
@@ -64,11 +63,6 @@ export default {
      })
    },
    asyncData (context) {
-     // // This what would we do in real project
-     // const version = context.query._storyblok || context.isDev ? 'draft' : 'published'
-     // const fullSlug = (context.route.path == '/' || context.route.path == '') ? 'home' : context.route.path
-
-     // Load the JSON from the API - loadig the home content (index page)
      return context.app.$storyapi.get('cdn/stories/over-mij', {
        version: 'draft'
      }).then((res) => {
@@ -92,7 +86,6 @@ export default {
 }
 .overmij-left{
   margin: 0 auto;
-
 }
 .review{
   margin-bottom: 50px;
@@ -111,7 +104,7 @@ export default {
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
-  line-height: 128.4%;
+  /* line-height: 128.4%; */
   color: #234A71;
   padding-top: 20px;
 }
@@ -120,12 +113,11 @@ export default {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 128.4%;
+
   text-align: center;
   color: #234A71;
   width: 90%;
   margin-top: 20px;
-
 }
 .overmij-underline{
   width: 80%;
@@ -143,12 +135,10 @@ export default {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 136.9%;
-  letter-spacing: 0.035em;
+  /* line-height: 136.9%; */
   color: #043652;
   white-space: pre-line;
   margin-top: 20px;
-
 }
 .socialmedia-icons{
   display: flex;
@@ -167,13 +157,13 @@ export default {
   background-color: #043652;
   border: none;
 }
-.overmij-right{
+.link{
+  color: #043652;
 }
 .image-holder{
   margin: 0 auto;
   display: flex;
   justify-content: center;
-
 }
 .overmij-image{
   width: 90%;
@@ -199,105 +189,53 @@ export default {
     margin: 0 auto;
     margin-top: 15px;
   }
-
-
 }
 @media (min-width: 1300px) {
-.overmij{
-  min-height: 100vh;
-}
-.overmij-container{
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 50px;
-}
-.overmij-left{
-  margin: 0 auto;
-
-}
-.overmij-content{
-  width: 605px;
-  height: 180px;
-  margin-top: 50px;
-}
-.overmij-title{
-  font-size: 40px;
-  width: 605px;
-  white-space: pre-line;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 128.4%;
-  color: #234A71;
-}
-.overmij-sub-title{
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 128.4%;
-  text-align: center;
-  color: #234A71;
-  width: 605px;
-}
-.overmij-underline{
-  width: 390px;
-  margin: 0 auto;
-  height: 2px;
-  color: #043652;
-  background-color: #043652;
-  border: none;
-  margin-top: 10px;
-}
-.overmij-content-article{
-  width: 601px;
-  height: 490px;
-  left: 50px;
-  top: 368px;
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 136.9%;
-  letter-spacing: 0.035em;
-  color: #043652;
-  white-space: pre-line;
-
-}
-.socialmedia-icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.fab{
-  font-size: 45px;
-  margin: 30px 29px;
-}
-.socialmedia-icons-line{
-  width: 235px;
-  margin: 0 auto;
-  height: 8px;
-  color: #043652;
-  background-color: #043652;
-  border: none;
-}
-.overmij-right{
-}
-.image-holder{
-  width: 100%;
-  height: 90vh;
-
-}
-.overmij-image{
-  width: 50vw;
-  height: 1024px;
-  position: absolute;
-  top: 0;
-  margin: 0;
-}
+  .overmij{
+    min-height: 100vh;
+  }
+  .overmij-container{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+  .overmij-content{
+    width: 605px;
+    height: 180px;
+    margin-top: 50px;
+  }
+  .overmij-title{
+    font-size: 40px;
+    width: 605px;
+  }
+  .overmij-sub-title{
+    font-size: 24px;
+    width: 605px;
+  }
+  .overmij-underline{
+    width: 390px;
+  }
+  .overmij-content-article{
+    width: 601px;
+    height: 490px;
+    left: 50px;
+    top: 368px;
+    font-size: 18px;
+  }
+  .socialmedia-icons-line{
+    width: 235px;
+  }
+  .image-holder{
+    width: 100%;
+    height: 90vh;
+  }
+  .overmij-image{
+    width: 50vw;
+    height: 1024px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+  }
 }
 </style>

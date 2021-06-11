@@ -3,10 +3,12 @@
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
     <div class="nav-title">
+      <nuxt-link to="/">
       <img class="nav-logo" src="@/assets/img/logo_small.png" alt="POWER2Kids logo">
+    </nuxt-link>
     </div>
   </div>
-  <div class="nav-btn">
+  <div class="nav-btn" >
     <label for="nav-check">
       <span></span>
       <span></span>
@@ -32,6 +34,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
 .nav {
   height: 70px;
   width: 100vw;
@@ -45,7 +48,6 @@ export default {
   width: 210px;
   height: 50px;
 }
-
 .nav-links{
   max-width: 100vw;
   z-index: 2;
@@ -53,17 +55,14 @@ export default {
 .nav > .nav-header {
   display: inline;
 }
-
 .nav > .nav-header > .nav-title {
   display: inline-block;
   padding: 10px 10px 10px 10px;
   margin-left: 110px;
 }
-
 .nav > .nav-btn {
   display: none;
 }
-
 .nav > .nav-links {
   display: inline;
   float: right;
@@ -74,21 +73,18 @@ export default {
   height: 70px;
   margin-right: 70px;
 }
-
 .nav > .nav-links > a {
   display: inline-block;
   margin: 0px 15px;
   text-decoration: none;
   color: #234A71;
 }
-
 .nav > .nav-links > a:hover {
   border-bottom: 4px solid #234A71;
 }
 .nav-link.nuxt-link-exact-active {
-   border-bottom: 4px solid #234A71;
- }
-
+  border-bottom: 4px solid #234A71;
+}
 .nav > #nav-check {
   display: none;
 }

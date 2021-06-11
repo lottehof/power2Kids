@@ -37,9 +37,6 @@ export default {
     background-color: #D3D1DB;
   }
   .aanbod-listitems{
-    display: flex;
-    justify-content: left;
-    align-items: center;
     height: 10vh;
   }
 

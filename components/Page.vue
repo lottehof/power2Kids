@@ -54,7 +54,10 @@ methods: {
 
 }
 </script>
-<style>
+<style scoped>
+*{
+  text-align: left;
+}
 .review-title{
   font-size: 20px;
   text-align: center;
@@ -76,10 +79,10 @@ methods: {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 900px;
 }
 .review-box-container{
-  height: 100%;
+  height: auto;
   width: 90%;
   background-color: #9490A7;
   position: relative;
@@ -102,7 +105,7 @@ methods: {
 .white-box{
   width: 75%;
   height: 90%;
-  max-height: 700px;
+  max-height: 900px;
   border: 4px solid white;
   position: absolute;
   top: 50%;
@@ -225,6 +228,11 @@ li.slider{
     margin: 0 auto;
     margin-left: 60px;
   }
-
+  .review-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  }
 }
 </style>

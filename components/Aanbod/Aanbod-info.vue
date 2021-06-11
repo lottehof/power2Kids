@@ -26,9 +26,6 @@ export default {
   width: 90%;
   margin: 0 auto;
 }
-.title-container{
-
-}
 .aanbod-title{
   font-size: 20px;
   padding-top: 50px;
@@ -40,36 +37,26 @@ export default {
 .aanbod-underline{
   width: 250px;
   margin-left: 20px;
-  /* margin: 0 auto; */
   height: 2px;
   color: #043652;
   background-color: #043652;
   border: none;
   margin-bottom: 20px;
 }
-.aanbod-content{
-
-}
 .aanbod-content-p{
-  font-size: 12px;
+  font-size: 14px;
   width: 95%;
-  line-height: 16px;
-  letter-spacing: 0.13em;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
   white-space: pre-line;
 }
 
 @media (min-width: 768px) {
   .aanbod-title{
     font-size: 26px;
-    padding-top: 50px;
-    color: #043652;
-    font-weight: bold;
-    margin-bottom: 10px;
-    width: 420px;
-  }
-  .aanbod-underline{
-    width: 250px;
-    margin-left: 20px;
+    width: 100%;
   }
   .aanbod-content-p{
     font-size: 14px;
@@ -79,36 +66,30 @@ export default {
 
 @media (min-width: 1300px) {
   .title-container{
-    width: 542px;
+    width: 842px;
   }
   .aanbod-title{
     font-size: 36px;
-    padding-top: 80px;
-    color: #043652;
-    font-weight: bold;
-    margin-bottom: 10px;
-    width: 542px;
+    padding-top: 150px;
+    width: 100%;
     margin-left: 70px;
-
   }
   .aanbod-underline{
     width: 370px;
     margin: 0 auto;
-    height: 2px;
-    color: #043652;
-    background-color: #043652;
-    border: none;
   }
   .aanbod-content{
     margin-top: 20px;
     margin-left: 70px;
   }
   .aanbod-content-p{
-    font-size: 14px;
+    font-size: 16px;
     width: 670px;
-    line-height: 16px;
-    letter-spacing: 0.13em;
-    white-space: pre-line;
+  }
+}
+@media (min-width: 1800px) {
+  .aanbod-title{
+    padding-top: 180px;
   }
 }
 </style>

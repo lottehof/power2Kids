@@ -9,9 +9,10 @@ import NuxtBuildIndicator from './components/nuxt-build-indicator'
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css'
 
 import _6f6c098b from '../layouts/default.vue'
+import _f7e9c582 from '../layouts/homelayout.vue'
 import _9a9ad342 from '../layouts/overmijnav.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b),"_overmijnav": sanitizeComponent(_9a9ad342) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_homelayout": sanitizeComponent(_f7e9c582),"_overmijnav": sanitizeComponent(_9a9ad342) }
 
 export default {
   render (h, props) {

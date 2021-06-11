@@ -1,7 +1,8 @@
 <template lang="html">
   <div>
     <main>
-        <NavigationbarOvermij />
+        <TheHeaderOvermij />
+        <TheSideNavOvermij />
         <Nuxt />
           <Footer />
     </main>
@@ -9,11 +10,14 @@
 </template>
 
 <script>
-import NavigationbarOvermij from '@/components/Navigation/NavigationbarOvermij'
+import TheHeaderOvermij from '@/components/OvermijNavigation/TheHeaderOvermij'
+import TheSideNavOvermij from '@/components/OvermijNavigation/TheSideNavOvermij'
 export default {
   components:{
-    NavigationbarOvermij,
-  }
+    TheHeaderOvermij,
+    TheSideNavOvermij
+  },
+  
 }
 </script>
 

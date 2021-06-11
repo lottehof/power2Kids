@@ -22,13 +22,15 @@ export default {
 <style lang="css" scoped>
 @media (min-width: 768px) {
   .slider-content{
-    width: 580px;
-    padding: 2rem;
+    width: 650px;
+    text-align: left;
+  }
+  .post{
+    width: 100%;
   }
   .person{
     position: absolute;
     bottom: 7%;
   }
-
 }
 </style>

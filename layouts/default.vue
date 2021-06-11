@@ -1,7 +1,9 @@
 <template>
   <div>
     <main>
-        <Navigationbar />
+      <TheHeader/>
+
+     <TheSideNav/>
         <Nuxt />
           <Footer />
     </main>
@@ -9,27 +11,27 @@
 </template>
 
 <script>
-import Navigationbar from '@/components/Navigation/Navigationbar'
+
 import Footer from '@/components/Footer/Footer'
+import TheHeader from '@/components/Navigation/TheHeader'
+import TheSideNav from '@/components/Navigation/TheSideNav'
 export default {
   components:{
-    Navigationbar,
-    Footer
-  }
+    Footer,
+    TheHeader,
+    TheSideNav,
+  },
+
 }
 </script>
 
 <style>
-*, *::before, *::after{
-  box-sizing: border-box;
-}
-*, *::before,
-*::after {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  list-style: none;
+  text-align: justify;
 }
 html{
   font-family: Arial, sans-serif;
@@ -47,83 +49,73 @@ hr, body{
   cursor: auto;
 }
 .aanpak-listitems h3{
-    font-size: 16px;
+    font-size: 18px;
 }
 .rouw-content-p h3{
   font-size: 14px;
   font-weight: bold;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 .fourth h3{
   font-size: 14px;
   font-weight: bold;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 .second h3{
-  font-size: 16px;
-  margin-top: 20px
+  font-size: 18px;
+  margin-top: 20px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
 }
 .aanpak-listitems ul li{
-  background: url('~/assets/img/ster.png') no-repeat left center;
-  padding: 15px 10px 15px 45px;
-  list-style: none;
-  margin: 0;
-  vertical-align: middle;
+  padding: 10px 10px 10px 10px;
+  margin-left: 15px;
 }
 .aanbod-listitems ul li
 {
-  background: url('~/assets/img/sterklein.png') no-repeat left center;
-  padding: 10px 10px 10px 35px;
-  list-style: none;
-  margin: 0;
-  vertical-align: middle;
+  padding: 10px 10px 10px 10px;
   margin-left: 20px;
   width: 317px;
   font-size: 14px;
-  color: #043652;
+
 }
 .aanbod-listitems-pakket ul li{
-    font-size: 14px;
-    color: black;
-    background: url('~/assets/img/sterklein.png') no-repeat left center;
-    padding: 10px 10px 10px 35px;
-    list-style: none;
-    margin: 0;
-    vertical-align: middle;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    width: 90%;
-    color: #043652;
-
+  padding: 10px 10px 10px 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  width: 90%;
+  font-size: 14px;
+  text-align: left;
 }
 .aanpak-listitems ul li{
   width: 95%;
-  font-size: 12px;
-  color: #043652;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
+  font-size: 14px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
 }
 .hulp-listitems ul li{
-  background: url('~/assets/img/ster.png') no-repeat left center;
   padding: 15px 10px 15px 45px;
-  list-style: none;
-  margin: 0;
-  vertical-align: middle;
 }
 .aanpak-listitems ul{
   margin-bottom: 30px;
 }
 .aanpak-listitems p{
-  font-size: 12px;
+  font-size: 14px;
   width: 100%;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
   white-space: pre-line;
   margin-top: 20px;
 }
@@ -139,15 +131,19 @@ hr, body{
     width: 576px;
     margin-bottom: 30px;
     font-size: 20px;
-    color: #043652;
+  }
+  .aanbod-listitems ul li
+  {
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    width: 100%;
+    font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
   .aanpak-listitems h3{
     font-size: 18px;
     font-weight: bold;
-    line-height: 133.31%;
-    letter-spacing: 0.13em;
     margin-top: 50px;
     margin-bottom: 10px;
   }
@@ -155,14 +151,11 @@ hr, body{
       font-size: 18px;
   }
   .aanpak-listitems ul li{
-    width: 95%;
-    font-size: 14px;
-    color: #043652;
-    line-height: 133.31%;
-    letter-spacing: 0.13em;
+    font-size: 16px;
+    width: 515px;
   }
   .aanpak-listitems p{
-    font-size: 14px;
+    font-size: 16px;
     width: 530px;
     margin-bottom: 100px;
   }
@@ -173,18 +166,13 @@ hr, body{
     font-size: 18px;
     margin-top: 40px;
   }
+  .aanbod-listitems-pakket ul {
+    margin: 0 auto;
+  }
   .aanbod-listitems-pakket ul li{
-      font-size: 18px;
-      color: black;
-      background: url('~/assets/img/sterklein.png') no-repeat left center;
-      padding: 10px 10px 10px 35px;
-      list-style: none;
-      margin: 0;
-      vertical-align: middle;
-      margin-left: 20px;
-      margin-bottom: 15px;
-      width: 317px;
-      color: #043652;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    width: 95%;
 
   }
   .losconsult{

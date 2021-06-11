@@ -36,13 +36,13 @@ export default {
 .hoewerkik-image{
   width: 90%;
 }
-/* .aanpak-sub-title{
-  font-size: 16px;
-  margin-top: 20px;
-} */
 .aanpak-content{
   text-align: center;
   margin-top: 20px;
+}
+figure{
+  margin: 0 auto;
+  text-align: center;
 }
 
 @media (min-width:1200px) {
@@ -64,14 +64,19 @@ export default {
 .aanpak-sub-title{
   font-size: 18px;
   font-weight: bold;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
   margin-top: 40px;
   margin-bottom: 10px;
 }
 .aanpak-content-p{
   font-size: 14px;
   width: 530px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
 }
 .listitem{
   width: 493px;

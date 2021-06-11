@@ -37,16 +37,20 @@ export default {
 .rouw-sub-title{
   font-size: 14px;
   font-weight: bold;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 .rouw-content-p{
-  font-size: 12px;
+  font-size: 14px;
   width: 100%;
-  line-height: 133.31%;
-  letter-spacing: 0.13em;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
   white-space: pre-line;
 }
 .rouw-content{
@@ -67,34 +71,36 @@ export default {
   background-color: #9490A7;
   margin-bottom: 20px;
 }
-@media (min-width: 1100px) {
-.rouw-container-two{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 1160px;
+figure{
   margin: 0 auto;
-  column-gap: 100px;
+  text-align: center;
 }
-.rouw-content-two{
-  margin: 0;
-}
-
-.rouw-sub-title{
-  font-size: 18px;
-  margin-top: 40px;
-}
-.rouw-content-p{
-  font-size: 14px;
-  width: 530px;
-}
-.hoewerkik-image{
-  width: 530px;
-  height: 454px;
-  margin-top: 50px;
-}
-.line{
-  width: 60%;
-  margin-bottom: 60px;
-}
+@media (min-width: 1100px) {
+  .rouw-container-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1160px;
+    margin: 0 auto;
+    column-gap: 100px;
+  }
+  .rouw-content-two{
+    margin: 0;
+  }
+  .rouw-sub-title{
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  .rouw-content-p{
+    font-size: 14px;
+    width: 530px;
+  }
+  .hoewerkik-image{
+    width: 530px;
+    height: 454px;
+    margin-top: 50px;
+  }
+  .line{
+    width: 60%;
+  }
 }
 </style>
