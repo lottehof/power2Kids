@@ -43,6 +43,7 @@ hr, body{
   margin: 0;
   padding: 0;
 }
+
 .landing-content a{
   color: #043652;
   text-decoration: underline;

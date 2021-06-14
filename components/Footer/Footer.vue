@@ -73,9 +73,9 @@ ul li{
   color: white;
   text-decoration: none;
 }
-.last-listitem{
+/* .last-listitem{
   width: 231px;
-}
+} */
 .bottom-copyright{
   text-align: center;
   padding-top: 30px;

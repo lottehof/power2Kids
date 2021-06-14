@@ -74,12 +74,12 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 .white-background{
     background-color: rgba(255, 255, 255, 0.5);
+    min-height: 100vh;
     padding-bottom: 80px;
-    height: 100%;
 }
 @media (min-width:1100px) {
 .rouwverlies{
@@ -89,10 +89,10 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
-.white-background{
+/* .white-background{
   background-color: transparent;
-}
+} */
 }
 </style>

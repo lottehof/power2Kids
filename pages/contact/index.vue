@@ -106,20 +106,6 @@ export default {
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-.contact-box:before, .contact-box:after{
-  content:"";
-  position:absolute;
-  z-index:-1;
-  -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-  -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-  box-shadow:0 0 20px rgba(0,0,0,0.8);
-  top:50%;
-  bottom:0;
-  left:10px;
-  right:10px;
-  -moz-border-radius:100px / 10px;
-  border-radius:100px / 10px;
-}
 .contact-box:after{
   right:10px;
   left:auto;
@@ -160,20 +146,21 @@ export default {
 
 @media (min-width: 768px) {
   .contact-box{
-    width: 80%;
+    width: 620px;
     height: 350px;
     background-color: #234A71;
-    position: absolute;
-    top: 27%;
-    left: 12%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
   }
  .contact-content{
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .contact-content-p{
+    text-align: center;
   }
 }
 @media (min-width:1300px) {
@@ -223,6 +210,16 @@ export default {
   }
   .contact-image{
     width: 430px;
+  }
+}
+@media (min-width: 1800px) {
+  .contact-box{
+    width: 800px;
+    height: 503px;
+    position: absolute;
+    top: 36%;
+    left: 28%;
+    grid-template-columns: 1fr 1fr;
   }
 }
 </style>

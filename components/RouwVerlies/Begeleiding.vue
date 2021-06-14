@@ -57,7 +57,7 @@ figure{
   margin: 0;
 }
   .hoewerkik-image{
-    width: 530px;
+    width: 500px;
     height: 454px;
     margin-top: 70px;
   }

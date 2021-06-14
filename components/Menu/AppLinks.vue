@@ -141,16 +141,17 @@ export default {
     display: none;
   }
   .nav-links-second{
-    float: right;
+    /* float: right; */
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
-    margin-right: 70px;
     background-color: white;
     margin-top: 0;
     padding-top: 0;
+    width: 673px;
+    /* margin: 0 auto; */
   }
   .nav-link{
     margin: 0;
@@ -172,6 +173,6 @@ export default {
   .nav-link.nuxt-link-exact-active {
      border-bottom: 4px solid  #234A71;
    }
-
 }
+
 </style>

@@ -104,8 +104,8 @@ export default {
 }
 @media (min-width: 900px) {
   .nav-logo{
-    width: 335px;
-    height: 33px;
+    width: auto;
+    height: 100%;
   }
   .sidenav{
     height: auto;

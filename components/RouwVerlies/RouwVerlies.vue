@@ -97,7 +97,7 @@ export default {
   }
   .rouw-title{
     font-size: 36px;
-    width: 530px;
+    width: 500px;
     text-align: left;
   }
   .rouw-underline{
@@ -108,10 +108,7 @@ export default {
   }
   .rouw-content-p{
     font-size: 14px;
-    width: 530px;
-  }
-  .first{
-    margin-bottom: 110px;
+    width: 500px;
   }
   .line{
     width: 60%;

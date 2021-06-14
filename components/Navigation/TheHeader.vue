@@ -1,20 +1,13 @@
 <template>
   <header class="nav">
     <div class="desktop">
-    <div class="nav-header desktop">
+    <div class="nav-header">
       <div class="nav-title">
         <nuxt-link to="/">
         <img class="nav-logo" src="@/assets/img/logo_small.png" alt="POWER2Kids logo">
       </nuxt-link>
       </div>
     </div>
-      <div class="nav-btn" role="button" @click="$store.dispatch('nav/toggleSidebar')">
-        <label for="nav-check">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-      </div>
       <div class="nav-links">
         <app-links></app-links>
       </div>
@@ -63,9 +56,8 @@ export default {
 .nav-logo{
   width: 210px;
   height: 50px;
-    z-index: 2;
+  z-index: 2;
 }
-
 .nav-links{
   max-width: 100vw;
   z-index: 2;
@@ -102,7 +94,6 @@ export default {
 .nav-link.nuxt-link-exact-active {
   border-bottom: 4px solid #234A71;
 }
-
 .nav > .nav-btn {
   display: inline-block;
   position: absolute;
@@ -118,6 +109,7 @@ export default {
   width: 50px;
   height: 50px;
   padding: 13px;
+  margin-left: 10px;
 }
 .nav > .nav-btn > label > span {
   display: block;
@@ -140,11 +132,17 @@ export default {
   text-align: center;
   width: 100%;
 }
+@media (min-width: 768px) {
+  .nav > .nav-btn > label {
+    margin-left: 20px;
+  }
+}
 @media (min-width: 1300px) {
   .desktop{
-    display: flex;
+    display: grid;
     width: 100vw;
-
+    grid-template-columns: 1fr 1fr;
+    height: 70px
   }
   .nav-header.mobile{
     display: none;
@@ -163,19 +161,21 @@ export default {
   .nav-links{
     max-width: 100vw;
     z-index: 2;
+    grid-column: 2;
   }
-  .nav > .desktop > .nav-header {
-    display: inline;
+  .nav-title{
+    width: 210px;
+    grid-column: 1;
   }
+
   .nav > .desktop > .nav-header > .nav-title {
-    display: inline-block;
     padding: 10px 10px 10px 10px;
     margin-left: 110px;
   }
   .nav > .nav-btn {
     display: none;
   }
-  .nav > .desktop > .nav-links {
+  /* .nav > .desktop > .nav-links {
     display: inline;
     float: right;
     font-size: 18px;
@@ -183,7 +183,7 @@ export default {
     justify-content: center;
     align-items: center;
     height: 70px;
-  }
+  } */
   .nav >  .desktop > .nav-links > a {
     display: inline-block;
     margin: 0px 15px;

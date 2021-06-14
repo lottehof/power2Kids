@@ -84,7 +84,7 @@ figure{
     column-gap: 100px;
   }
   .rouw-content-two{
-    margin: 0;
+    margin: 0 auto;
   }
   .rouw-sub-title{
     font-size: 18px;
@@ -92,10 +92,10 @@ figure{
   }
   .rouw-content-p{
     font-size: 14px;
-    width: 530px;
+    width: 500px;
   }
   .hoewerkik-image{
-    width: 530px;
+    width: 500px;
     height: 454px;
     margin-top: 50px;
   }

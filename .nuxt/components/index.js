@@ -9,15 +9,12 @@ export { default as Review } from '../../components/Review.vue'
 export { default as AanbodInfo } from '../../components/Aanbod/Aanbod-info.vue'
 export { default as AanbodPakkettenInfo } from '../../components/Aanbod/Pakketten-info.vue'
 export { default as AanbodPakketten } from '../../components/Aanbod/Pakketten.vue'
+export { default as Footer } from '../../components/Footer/Footer.vue'
 export { default as AanpakNietZoalsJeWilt } from '../../components/Aanpak/NietZoalsJeWilt.vue'
 export { default as AanpakSamenBereiken } from '../../components/Aanpak/SamenBereiken.vue'
 export { default as AanpakTraject } from '../../components/Aanpak/Traject.vue'
-export { default as Footer } from '../../components/Footer/Footer.vue'
 export { default as HomeHulpIdeaalComponent } from '../../components/Home/HulpIdeaalComponent.vue'
 export { default as HomeLandingComponent } from '../../components/Home/LandingComponent.vue'
-export { default as HomeAppLinks } from '../../components/HomeMenu/HomeAppLinks.vue'
-export { default as HomeTheHeader } from '../../components/HomeMenu/HomeTheHeader.vue'
-export { default as HomeTheSideNav } from '../../components/HomeMenu/HomeTheSideNav.vue'
 export { default as MenuAppLinks } from '../../components/Menu/AppLinks.vue'
 export { default as MenuTheHeader } from '../../components/Menu/TheHeader.vue'
 export { default as MenuTheSideNav } from '../../components/Menu/TheSideNav.vue'
@@ -43,15 +40,12 @@ export const LazyReview = import('../../components/Review.vue' /* webpackChunkNa
 export const LazyAanbodInfo = import('../../components/Aanbod/Aanbod-info.vue' /* webpackChunkName: "components/aanbod-info" */).then(c => wrapFunctional(c.default || c))
 export const LazyAanbodPakkettenInfo = import('../../components/Aanbod/Pakketten-info.vue' /* webpackChunkName: "components/aanbod-pakketten-info" */).then(c => wrapFunctional(c.default || c))
 export const LazyAanbodPakketten = import('../../components/Aanbod/Pakketten.vue' /* webpackChunkName: "components/aanbod-pakketten" */).then(c => wrapFunctional(c.default || c))
+export const LazyFooter = import('../../components/Footer/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
 export const LazyAanpakNietZoalsJeWilt = import('../../components/Aanpak/NietZoalsJeWilt.vue' /* webpackChunkName: "components/aanpak-niet-zoals-je-wilt" */).then(c => wrapFunctional(c.default || c))
 export const LazyAanpakSamenBereiken = import('../../components/Aanpak/SamenBereiken.vue' /* webpackChunkName: "components/aanpak-samen-bereiken" */).then(c => wrapFunctional(c.default || c))
 export const LazyAanpakTraject = import('../../components/Aanpak/Traject.vue' /* webpackChunkName: "components/aanpak-traject" */).then(c => wrapFunctional(c.default || c))
-export const LazyFooter = import('../../components/Footer/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
 export const LazyHomeHulpIdeaalComponent = import('../../components/Home/HulpIdeaalComponent.vue' /* webpackChunkName: "components/home-hulp-ideaal-component" */).then(c => wrapFunctional(c.default || c))
 export const LazyHomeLandingComponent = import('../../components/Home/LandingComponent.vue' /* webpackChunkName: "components/home-landing-component" */).then(c => wrapFunctional(c.default || c))
-export const LazyHomeAppLinks = import('../../components/HomeMenu/HomeAppLinks.vue' /* webpackChunkName: "components/home-app-links" */).then(c => wrapFunctional(c.default || c))
-export const LazyHomeTheHeader = import('../../components/HomeMenu/HomeTheHeader.vue' /* webpackChunkName: "components/home-the-header" */).then(c => wrapFunctional(c.default || c))
-export const LazyHomeTheSideNav = import('../../components/HomeMenu/HomeTheSideNav.vue' /* webpackChunkName: "components/home-the-side-nav" */).then(c => wrapFunctional(c.default || c))
 export const LazyMenuAppLinks = import('../../components/Menu/AppLinks.vue' /* webpackChunkName: "components/menu-app-links" */).then(c => wrapFunctional(c.default || c))
 export const LazyMenuTheHeader = import('../../components/Menu/TheHeader.vue' /* webpackChunkName: "components/menu-the-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyMenuTheSideNav = import('../../components/Menu/TheSideNav.vue' /* webpackChunkName: "components/menu-the-side-nav" */).then(c => wrapFunctional(c.default || c))
