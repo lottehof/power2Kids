@@ -97,15 +97,15 @@ export default {
   }
 }
 @media (min-width: 750px) {
-  .sidenav {
-    width: 100%;
-    height: 400px;
+  .nav-logo{
+    height: 100px;
+    width: 300px;
   }
 }
 @media (min-width: 900px) {
   .nav-logo{
-    width: auto;
-    height: 100%;
+    width: 400px;
+    height: 50%;
   }
   .sidenav{
     height: auto;
@@ -128,5 +128,11 @@ export default {
   .slide-side-leave-to {
     transform: translateX(-100%);
   }
+}
+@media (min-width: 1300px) {
+  .sidenav{
+    display: none;
+  }
+
 }
 </style>

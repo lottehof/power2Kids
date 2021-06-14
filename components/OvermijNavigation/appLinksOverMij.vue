@@ -35,16 +35,16 @@
 
 @media (min-width: 1300px) {
   .nav-links-second{
-    float: right;
+    /* float: right; */
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
-    margin-right: 70px;
     background-color: transparent;
     margin-top: 0;
     padding-top: 0;
+    width: 673px;
   }
   .nav-link{
     margin: 0;

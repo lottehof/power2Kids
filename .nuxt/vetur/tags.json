@@ -26,9 +26,6 @@
   "AanbodPakketten": {
     "description": "Auto imported from components/Aanbod/Pakketten.vue"
   },
-  "Footer": {
-    "description": "Auto imported from components/Footer/Footer.vue"
-  },
   "AanpakNietZoalsJeWilt": {
     "description": "Auto imported from components/Aanpak/NietZoalsJeWilt.vue"
   },
@@ -37,6 +34,9 @@
   },
   "AanpakTraject": {
     "description": "Auto imported from components/Aanpak/Traject.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer/Footer.vue"
   },
   "HomeHulpIdeaalComponent": {
     "description": "Auto imported from components/Home/HulpIdeaalComponent.vue"

@@ -100,10 +100,6 @@ export default {
   left: 0px;
   top: 0px;
 }
-.nav-logo{
-  width: 126px;
-  height: 30px;
-}
 .nav > .nav-btn > label {
   display: inline-block;
   width: 50px;

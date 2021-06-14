@@ -47,8 +47,6 @@ export default {
   width: 100%;
   overflow-y: scroll;
  -webkit-overflow-scrolling:touch;
- /* z-index: 9999;
- position: fixed; */
 }
 .sidenav {
   height: 100vh;
@@ -97,15 +95,15 @@ export default {
   }
 }
 @media (min-width: 750px) {
-  .sidenav {
-    width: 100%;
-    height: 400px;
+  .nav-logo{
+    height: 100px;
+    width: 300px;
   }
 }
 @media (min-width: 900px) {
   .nav-logo{
-    width: 335px;
-    height: 33px;
+    width: 400px;
+    height: 50%;
   }
   .sidenav{
     height: auto;
@@ -128,5 +126,12 @@ export default {
   .slide-side-leave-to {
     transform: translateX(-100%);
   }
+}
+
+@media (min-width: 1300px) {
+  .sidenav{
+    display: none;
+  }
+
 }
 </style>

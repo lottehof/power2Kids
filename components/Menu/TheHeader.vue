@@ -97,10 +97,7 @@ export default {
   left: 0px;
   top: 0px;
 }
-.nav-logo{
-  width: 126px;
-  height: 30px;
-}
+
 .nav > .nav-btn > label {
   display: inline-block;
   width: 50px;
@@ -158,9 +155,7 @@ export default {
     width: 210px;
     grid-column: 1;
   }
-  .nav > .desktop > .nav-header {
-    /* display: inline; */
-  }
+
   .nav > .desktop > .nav-header > .nav-title {
     /* display: inline-block; */
     padding: 10px 10px 10px 10px;
@@ -169,15 +164,6 @@ export default {
   .nav > .nav-btn {
     display: none;
   }
-  /* .nav > .desktop > .nav-links {
-    display: inline;
-    float: right;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-  } */
   .nav >  .desktop > .nav-links > a {
     display: inline-block;
     margin: 0px 15px;
