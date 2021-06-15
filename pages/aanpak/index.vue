@@ -65,7 +65,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.aanpak{
+/* .aanpak{
   min-height: 100vh;
   background-image: url('@/assets/img/hoewerkikbg.png');
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@ export default {
   width: 100vw;
   margin: 0;
   padding: 0;
-}
+} */
 .white-background{
     background-color: rgba(255, 255, 255, 0.5);
     height: 100%;
@@ -86,6 +86,19 @@ export default {
 @media (min-width: 1200px) {
   .white-background{
     background-color: transparent;
+  }
+  .aanpak{
+    min-height: 100vh;
+    background-image: url('@/assets/img/hoewerkikbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    background-color: #EFF8FF;
+    padding-bottom: 80px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
   }
 }
 </style>

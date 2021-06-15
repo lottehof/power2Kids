@@ -124,7 +124,7 @@ figure{
   .landing-container{
     width: 100vw;
     display: grid;
-    height: 720px;
+    height: auto;
     grid-template-columns: 1fr 1fr;
   }
   .landing-title{
@@ -151,14 +151,15 @@ figure{
   }
   .landing-image{
     position: absolute;
-    width: 680px;
-    height: auto;
+    width: auto;
+    height: 100vh;
     left: 0px;
     top: 0px;
   }
   .landing-left{
     grid-row: 1;
     width: 659px;
+    height: 93vh;
   }
   .landing-right{
     width: 673px;
@@ -180,16 +181,8 @@ figure{
 }
   @media (min-width: 1500px) {
     .landing-container{
-      height: 800px;
-
-    }
-
-    .landing-image{
-      position: absolute;
-      width: 780px;
       height: auto;
-      left: 0px;
-      top: 0px;
+
     }
     .landing-right{
       width: 693px;
@@ -200,10 +193,6 @@ figure{
     height: 950px;
   }
 
-  .landing-image{
-    width: 900px;
-    height: auto;
-  }
 }
 
 </style>

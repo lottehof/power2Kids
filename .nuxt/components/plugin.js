@@ -17,9 +17,6 @@ const components = {
   Footer: () => import('../../components/Footer/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c)),
   HomeHulpIdeaalComponent: () => import('../../components/Home/HulpIdeaalComponent.vue' /* webpackChunkName: "components/home-hulp-ideaal-component" */).then(c => wrapFunctional(c.default || c)),
   HomeLandingComponent: () => import('../../components/Home/LandingComponent.vue' /* webpackChunkName: "components/home-landing-component" */).then(c => wrapFunctional(c.default || c)),
-  MenuAppLinks: () => import('../../components/Menu/AppLinks.vue' /* webpackChunkName: "components/menu-app-links" */).then(c => wrapFunctional(c.default || c)),
-  MenuTheHeader: () => import('../../components/Menu/TheHeader.vue' /* webpackChunkName: "components/menu-the-header" */).then(c => wrapFunctional(c.default || c)),
-  MenuTheSideNav: () => import('../../components/Menu/TheSideNav.vue' /* webpackChunkName: "components/menu-the-side-nav" */).then(c => wrapFunctional(c.default || c)),
   NavigationNavigationbar: () => import('../../components/Navigation/Navigationbar.vue' /* webpackChunkName: "components/navigation-navigationbar" */).then(c => wrapFunctional(c.default || c)),
   NavigationTheHeader: () => import('../../components/Navigation/TheHeader.vue' /* webpackChunkName: "components/navigation-the-header" */).then(c => wrapFunctional(c.default || c)),
   NavigationTheSideNav: () => import('../../components/Navigation/TheSideNav.vue' /* webpackChunkName: "components/navigation-the-side-nav" */).then(c => wrapFunctional(c.default || c)),
@@ -31,6 +28,9 @@ const components = {
   RouwVerliesBegeleiding: () => import('../../components/RouwVerlies/Begeleiding.vue' /* webpackChunkName: "components/rouw-verlies-begeleiding" */).then(c => wrapFunctional(c.default || c)),
   RouwVerlies: () => import('../../components/RouwVerlies/RouwVerlies.vue' /* webpackChunkName: "components/rouw-verlies" */).then(c => wrapFunctional(c.default || c)),
   RouwVerliesSignalen: () => import('../../components/RouwVerlies/Signalen.vue' /* webpackChunkName: "components/rouw-verlies-signalen" */).then(c => wrapFunctional(c.default || c)),
+  MenuAppLinks: () => import('../../components/Menu/AppLinks.vue' /* webpackChunkName: "components/menu-app-links" */).then(c => wrapFunctional(c.default || c)),
+  MenuTheHeader: () => import('../../components/Menu/TheHeader.vue' /* webpackChunkName: "components/menu-the-header" */).then(c => wrapFunctional(c.default || c)),
+  MenuTheSideNav: () => import('../../components/Menu/TheSideNav.vue' /* webpackChunkName: "components/menu-the-side-nav" */).then(c => wrapFunctional(c.default || c)),
   SuccesverhalenReview: () => import('../../components/Succesverhalen/Review.vue' /* webpackChunkName: "components/succesverhalen-review" */).then(c => wrapFunctional(c.default || c))
 }
 

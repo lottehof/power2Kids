@@ -61,13 +61,14 @@ export default {
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
+  border: 1px solid lightgrey;
 }
 .pakket-top{
   height: 65px;
   background-color: #F6D6BE;
   position: absolute;
   top: 0;
-  width: 300px;
+  width: 298px;
 }
 
 .pakket-bottom{

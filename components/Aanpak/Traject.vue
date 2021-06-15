@@ -90,7 +90,7 @@ figure{
   .hoewerkik-image{
     width: 530px;
     height: 454px;
-    margin-top: 70px;
+    margin-top: 30px;
   }
   .line{
     width: 60%;

@@ -70,19 +70,26 @@ export default {
 <style lang="css" scoped>
 .aanbod{
   min-height: 85vh;
-  background-image: url('@/assets/img/aanbodbg.png');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
+
 }
 .white-background{
   background-color: rgba(255, 255, 255, 0.5);
   height: 100%;
   padding-bottom: 80px;
 }
+@media (min-width: 768px) {
+  .aanbod{
+    min-height: 85vh;
+    background-image: url('@/assets/img/aanbodbg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
 
 @media (min-width: 1300px) {
+
   .white-background{
     background-color: transparent;
   }

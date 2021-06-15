@@ -96,8 +96,8 @@ figure{
   }
   .hoewerkik-image{
     width: 500px;
-    height: 454px;
-    margin-top: 50px;
+    height: auto;
+    margin-top: 20px;
   }
   .line{
     width: 60%;

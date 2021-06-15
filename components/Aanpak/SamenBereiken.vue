@@ -39,6 +39,7 @@ export default {
 .aanpak-content{
   text-align: center;
   margin-top: 20px;
+  display: none;
 }
 figure{
   margin: 0 auto;
@@ -56,10 +57,13 @@ figure{
 .aanpak-content-three{
   margin: 0;
 }
+.aanpak-content{
+  display: block;
+}
 .hoewerkik-image{
   width: 530px;
   height: 454px;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 .aanpak-sub-title{
   font-size: 18px;

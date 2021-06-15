@@ -69,11 +69,6 @@ export default {
 <style lang="css" scoped>
 .rouwverlies{
   min-height: 100vh;
-  background-image: url('@/assets/img/r&vbg.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
   /* padding-bottom: 80px; */
 }
 .white-background{

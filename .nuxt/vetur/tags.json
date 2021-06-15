@@ -44,15 +44,6 @@
   "HomeLandingComponent": {
     "description": "Auto imported from components/Home/LandingComponent.vue"
   },
-  "MenuAppLinks": {
-    "description": "Auto imported from components/Menu/AppLinks.vue"
-  },
-  "MenuTheHeader": {
-    "description": "Auto imported from components/Menu/TheHeader.vue"
-  },
-  "MenuTheSideNav": {
-    "description": "Auto imported from components/Menu/TheSideNav.vue"
-  },
   "NavigationNavigationbar": {
     "description": "Auto imported from components/Navigation/Navigationbar.vue"
   },
@@ -85,6 +76,15 @@
   },
   "RouwVerliesSignalen": {
     "description": "Auto imported from components/RouwVerlies/Signalen.vue"
+  },
+  "MenuAppLinks": {
+    "description": "Auto imported from components/Menu/AppLinks.vue"
+  },
+  "MenuTheHeader": {
+    "description": "Auto imported from components/Menu/TheHeader.vue"
+  },
+  "MenuTheSideNav": {
+    "description": "Auto imported from components/Menu/TheSideNav.vue"
   },
   "SuccesverhalenReview": {
     "description": "Auto imported from components/Succesverhalen/Review.vue"

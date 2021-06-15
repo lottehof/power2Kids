@@ -32,6 +32,7 @@ export default {
 .rouw-content{
   text-align: center;
   margin-top: 20px;
+  display: none;
 }
 .hoewerkik-image{
   width: 90%;
@@ -53,13 +54,16 @@ figure{
     margin: 0 auto;
     column-gap: 100px;
   }
+  .rouw-content{
+    display: block;
+  }
 .rouw-content-three{
   margin: 0;
 }
   .hoewerkik-image{
     width: 500px;
-    height: 454px;
-    margin-top: 70px;
+    height: auto;
+    margin-top: 30px;
   }
 }
 </style>

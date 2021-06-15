@@ -52,6 +52,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+*{
+  text-align: left;
+}
 .contact{
   min-height: 100vh;
   background-image: url('@/assets/img/contactbg.png');
