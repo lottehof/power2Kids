@@ -77,17 +77,13 @@ export default {
     padding-bottom: 80px;
 }
 @media (min-width:1100px) {
-.rouwverlies{
-  min-height: 100vh;
-  background-image: url('@/assets/img/r&vbg.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
-  /* padding-bottom: 80px; */
-}
-/* .white-background{
-  background-color: transparent;
-} */
+  .rouwverlies{
+    min-height: 100vh;
+    background-image: url('@/assets/img/r&vbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 }
 </style>

@@ -4,7 +4,7 @@
       <div class="overmij-left">
       <div class="overmij-content">
         <h1 class="overmij-title"> {{story.content.title}}</h1>
-        <h3 class="overmij-sub-title">{{story.content.sub_title}}</h3>
+        <!-- <h3 class="overmij-sub-title">{{story.content.sub_title}}</h3> -->
         <hr class="overmij-underline">
       </div>
 
@@ -202,7 +202,7 @@ export default {
   }
   .overmij-content{
     width: 605px;
-    height: 180px;
+    height: 100px;
     margin-top: 50px;
   }
   .overmij-title{
