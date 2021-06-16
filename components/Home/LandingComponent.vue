@@ -118,11 +118,12 @@ figure{
 .overmij-content{
   margin-top: 50px;
   margin: 0 auto;
-  width: 95%;
+  width: 90%;
+  text-align: center;
 }
 .overmij-title{
   font-size: 26px;
-  width: 90%;
+  width: 100%;
   white-space: pre-line;
   text-align: center;
   text-transform: uppercase;
@@ -131,16 +132,16 @@ figure{
   font-weight: normal;
   color: #234A71;
   padding-top: 20px;
+  text-align: center;
 }
 .overmij-sub-title{
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-
   text-align: center;
   color: #234A71;
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
 }
 .overmij-underline{
