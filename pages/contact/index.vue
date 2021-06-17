@@ -195,6 +195,7 @@ export default {
     top: 40%;
     left: 22%;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
   }
   .left-side{
     width: 430px;

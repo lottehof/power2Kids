@@ -48,7 +48,7 @@ export default {
   },
   asyncData (context) {
    return context.app.$storyapi.get('cdn/stories/aanpak', {
-     version: 'draft'
+     version: context.isDev ? 'draft' : 'published'
    }).then((res) => {
      return res.data
    }).catch((res) => {

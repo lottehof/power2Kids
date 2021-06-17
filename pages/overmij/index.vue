@@ -20,7 +20,6 @@
       </div>
       <hr class="socialmedia-icons-line">
           </div>
-
           <div class="overmij-right">
             <div class="image-holder">
             <img src="@/assets/img/overmij.png" alt="Hanne van Willigenburg" class="overmij-image">
@@ -64,7 +63,7 @@ export default {
    },
    asyncData (context) {
      return context.app.$storyapi.get('cdn/stories/over-mij', {
-       version: 'draft'
+            version: context.isDev ? 'draft' : 'published'
      }).then((res) => {
        return res.data
      }).catch((res) => {
@@ -198,7 +197,7 @@ export default {
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 50px;
+    height: 100vh;
   }
   .overmij-content{
     width: 605px;
