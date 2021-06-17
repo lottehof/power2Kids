@@ -9,6 +9,7 @@
         </div>
       </div>
       <div class="landing-right">
+        <div class="context">
         <div class="overmij-content">
           <h1 class="overmij-title">{{ blok.title}}</h1>
           <h3 class="overmij-sub-title">{{blok.sub_title}}</h3>
@@ -18,6 +19,7 @@
           <h1 class="landing-title">{{ blok.quote}}</h1>
           <section class="landing-content-p"  v-html="$options.filters.markdown(blok.content)"></section>
         </div>
+      </div>
       </div>
   </div>
       <section class="button-container">
@@ -180,7 +182,7 @@ figure{
     width: 100vw;
     display: grid;
     height: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
   }
   .landing-title{
     margin-bottom: 40px;
@@ -206,18 +208,23 @@ figure{
   }
   .landing-image{
     position: absolute;
-    width: auto;
+    width: 659px;
     height: 100vh;
     left: 0px;
     top: 0px;
   }
   .landing-left{
+    grid-column: 1 / span 1;
     grid-row: 1;
     width: 659px;
     height: 93vh;
   }
   .landing-right{
     width: 473px;
+
+  }
+  .context{
+    grid-column: 2 / span 1;
   }
 
   .button-container{
@@ -265,10 +272,16 @@ figure{
   }
   .landing-image{
     position: absolute;
-    width: auto;
+    width: 673px;
     height: 1010px;
     left: 0px;
     top: 0px;
+  }
+  .landing-left{
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    width: 673px;
+    height: 93vh;
   }
 
 }
