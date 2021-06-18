@@ -111,7 +111,7 @@ export default {
   }
   .pakket{
     width: 390px;
-    height: 562px;
+    height: 510px;
   }
   .pakket-top{
     width: 390px;

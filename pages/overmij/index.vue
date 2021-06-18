@@ -197,7 +197,8 @@ export default {
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100vh;
+    height: 950px;
+
   }
   .overmij-content{
     width: 605px;

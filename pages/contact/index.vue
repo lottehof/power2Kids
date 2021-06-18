@@ -192,7 +192,7 @@ export default {
     width: 800px;
     height: 503px;
     position: absolute;
-    top: 40%;
+    top: 33%;
     left: 22%;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 50px;

@@ -220,11 +220,9 @@ figure{
     height: 93vh;
   }
   .landing-right{
-    width: 473px;
-
-  }
-  .context{
-    grid-column: 2 / span 1;
+      grid-column: 2 / span 1;
+      margin: 0 auto;
+      width: calc(100vw - 659px);
   }
 
   .button-container{
@@ -263,7 +261,9 @@ figure{
 
     }
     .landing-right{
-      width: 693px;
+        grid-column: 2 / span 1;
+        margin: 0 auto;
+        width: calc(100vw - 659px);
     }
   }
 @media (min-width: 1800px) {
@@ -282,6 +282,11 @@ figure{
     grid-row: 1;
     width: 673px;
     height: 93vh;
+  }
+  .landing-right{
+      grid-column: 2 / span 1;
+      margin: 0 auto;
+      width: calc(100vw - 673180px);
   }
 
 }
