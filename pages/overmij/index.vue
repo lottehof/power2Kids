@@ -4,13 +4,11 @@
       <div class="overmij-left">
       <div class="overmij-content">
         <h1 class="overmij-title"> {{story.content.title}}</h1>
-        <!-- <h3 class="overmij-sub-title">{{story.content.sub_title}}</h3> -->
         <hr class="overmij-underline">
       </div>
 
       <section class="overmij-content-article" v-html="$options.filters.markdown(story.content.content)"></section>
       <div class="socialmedia-icons">
-        <!-- <i class="fab fa-facebook-f"></i> -->
         <a class="link" href="https://www.instagram.com/praktijk_power2kids/" target="_blank">
         <i class="fab fa-instagram"></i>
         </a>
@@ -103,7 +101,6 @@ export default {
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
-  /* line-height: 128.4%; */
   color: #234A71;
   padding-top: 20px;
 }
@@ -112,7 +109,6 @@ export default {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-
   text-align: center;
   color: #234A71;
   width: 90%;
@@ -134,7 +130,6 @@ export default {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  /* line-height: 136.9%; */
   color: #043652;
   white-space: pre-line;
   margin-top: 20px;
@@ -166,7 +161,7 @@ export default {
 }
 .overmij-image{
   width: 90%;
-  height: 500px;
+  height: auto;
   margin-top: 20px;
   text-align: center;
   margin-bottom: 20px;

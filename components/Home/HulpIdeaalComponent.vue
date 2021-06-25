@@ -40,6 +40,7 @@ export default {
 }
 .hulp-listitems{
   padding: 20px;
+  margin-left: 20px;
 }
 
 @media (min-width: 768px) {

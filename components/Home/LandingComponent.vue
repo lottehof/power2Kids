@@ -1,13 +1,13 @@
 <template lang="html">
   <div class="landing-box">
     <div class="landing-container">
-      <div class="landing-left">
-        <div class="image-container">
+      <!-- <div class="landing-left"> -->
+        <!-- <div class="image-container"> -->
           <figure>
             <img class="landing-image" :src="blok.image" alt="Hanne">
           </figure>
-        </div>
-      </div>
+        <!-- </div> -->
+      <!-- </div> -->
       <div class="landing-right">
         <div class="context">
         <div class="overmij-content">
@@ -56,15 +56,10 @@ export default {
 .landing-left{
   grid-row: 2;
 }
-.image-container{
 
-}
 .landing-image{
   width: 90%;
   height: 90%;
-}
-.landing-right{
-
 }
 .landing-title{
   font-size: 24px;
@@ -181,8 +176,8 @@ figure{
   .landing-container{
     width: 100vw;
     display: grid;
-    height: auto;
-    grid-template-columns: auto auto;
+    height: 100vh;
+    /* grid-template-columns: auto auto; */
   }
   .landing-title{
     margin-bottom: 40px;
@@ -256,37 +251,25 @@ figure{
   }
 }
   @media (min-width: 1500px) {
-    .landing-container{
-      height: auto;
 
-    }
     .landing-right{
         grid-column: 2 / span 1;
         margin: 0 auto;
-        width: calc(100vw - 659px);
+        /* width: calc(100vw - 659px); */
     }
   }
 @media (min-width: 1800px) {
-  .landing-container{
-    height: 950px;
-  }
   .landing-image{
     position: absolute;
-    width: 673px;
-    height: 1010px;
+    /* width: 673px;
+    height: 1010px; */
     left: 0px;
     top: 0px;
-  }
-  .landing-left{
-    grid-column: 1 / span 1;
-    grid-row: 1;
-    width: 673px;
-    height: 93vh;
   }
   .landing-right{
       grid-column: 2 / span 1;
       margin: 0 auto;
-      width: calc(100vw - 673180px);
+      /* width: calc(100vw - 673180px); */
   }
 
 }
