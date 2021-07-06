@@ -56,7 +56,6 @@ export default {
 .landing-left{
   grid-row: 2;
 }
-
 .landing-image{
   width: 90%;
   height: 90%;
@@ -87,7 +86,6 @@ figure{
   text-align: center;
   margin-top: 20px;
 }
-
 .button-container{
   text-align: center;
   margin-top: 10px;
@@ -160,7 +158,6 @@ figure{
     width: 600px;
     margin: 0 auto;
     text-align: center;
-
   }
   .overmij-title{
     font-size: 30px;
@@ -179,6 +176,13 @@ figure{
     height: 100vh;
     /* grid-template-columns: auto auto; */
   }
+  figure{
+    position: absolute;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    margin-top: 0;
+  }
   .landing-title{
     margin-bottom: 40px;
     padding-top: 20px;
@@ -187,7 +191,6 @@ figure{
     line-height: 41px;
     color: #234A71;
     margin-top: 25px;
-    /* text-align: left; */
   }
   .landing-content{
     white-space: pre-line;
@@ -203,21 +206,15 @@ figure{
   }
   .landing-image{
     position: absolute;
-    width: 659px;
+    width: auto;
     height: 100vh;
     left: 0px;
     top: 0px;
   }
-  .landing-left{
-    grid-column: 1 / span 1;
-    grid-row: 1;
-    width: 659px;
-    height: 93vh;
-  }
   .landing-right{
-      grid-column: 2 / span 1;
-      margin: 0 auto;
-      width: calc(100vw - 659px);
+    grid-column: 2 / span 1;
+    margin: 0 auto;
+    width: calc(100vw - 659px);
   }
 
   .button-container{
@@ -251,27 +248,26 @@ figure{
   }
 }
   @media (min-width: 1500px) {
-
     .landing-right{
-        grid-column: 2 / span 1;
-        margin: 0 auto;
+      grid-column: 2 / span 1;
+      margin: 0 auto;
         /* width: calc(100vw - 659px); */
     }
   }
 @media (min-width: 1800px) {
   .landing-image{
     position: absolute;
-    /* width: 673px;
-    height: 1010px; */
+    width: auto;
+    /* height: 1010px; */
     left: 0px;
     top: 0px;
+    grid-column: 1 / 1;
   }
   .landing-right{
       grid-column: 2 / span 1;
       margin: 0 auto;
-      /* width: calc(100vw - 673180px); */
+      width: calc(100vw - 769px);
   }
-
 }
 
 </style>

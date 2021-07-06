@@ -15,7 +15,7 @@
           :is="blok.component" />
     </div>
     <div class="review-image-box">
-      <img src="@/assets/img/review.jpg" alt="2 kindjes" class="review-image">
+      <img :src="blok.review_image" alt="2 kindjes" class="review-image">
     </div>
   </div>
   </div>
