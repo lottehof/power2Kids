@@ -260,7 +260,7 @@ figure{
       grid-column: 2 / span 1;
       margin: 0 auto;
       margin-top: 80px;
-        /* width: calc(100vw - 659px); */
+  
     }
   }
 @media (min-width: 1800px) {
