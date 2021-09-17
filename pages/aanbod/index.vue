@@ -90,7 +90,7 @@ export default {
 
 @media (min-width: 1300px) {
   .aanbod-1{
-    margin-top: 100px;
+    padding-top: 100px;
   }
   .white-background{
     background-color: transparent;

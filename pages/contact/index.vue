@@ -177,7 +177,7 @@ export default {
     text-align: center;
   }
   .contact{
-    margin-top: 100px;
+    padding-top: 100px;
   }
 
   .contact-content{
