@@ -86,7 +86,7 @@ export default {
     width: 100vw;
     margin: 0;
     padding: 0;
-    margin-top: 100px;
+    /* margin-top: 100px; */
   }
 }
 </style>

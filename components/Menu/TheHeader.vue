@@ -141,6 +141,7 @@ export default {
     position: absolute;
     margin-top: 20px;
     margin-right: 0;
+    top: 0;
   }
   .nav-logo{
     width: 210px;

@@ -89,12 +89,12 @@ export default {
 }
 
 @media (min-width: 1300px) {
-
-  .white-background{
-    background-color: transparent;
-  }
   .aanbod-1{
     margin-top: 100px;
   }
+  .white-background{
+    background-color: transparent;
+  }
+
 }
 </style>

@@ -34,6 +34,7 @@ export default {
 .aanpak-container-one{
   display: block;
   width: 100%;
+  margin-top: 100px;
 }
 .aanpak-content-one{
   width: 95%;

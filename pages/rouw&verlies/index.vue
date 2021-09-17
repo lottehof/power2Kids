@@ -84,7 +84,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    margin-top: 100px;
+    /* margin-top: 100px; */
   }
 }
 </style>

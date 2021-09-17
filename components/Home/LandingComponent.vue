@@ -203,12 +203,11 @@ figure{
     height: auto;
   }
   .landing-image{
-    /* position: absolute; */
+
     width: auto;
     height: 100vh;
     left: 0px;
     top: 0px;
-
   }
   .landing-left{
     width: auto;
@@ -220,7 +219,6 @@ figure{
   .landing-right{
     width: 100%;
     margin-top: 80px;
-
   }
 
   .button-container{
@@ -255,8 +253,6 @@ figure{
 }
   @media (min-width: 1500px) {
     .landing-right{
-      /* grid-column: 2 / span 1; */
-      /* margin: 0 auto; */
       margin-top: 80px;
 
     }
@@ -266,11 +262,6 @@ figure{
     width: auto;
     left: 0px;
     top: 0px;
-    /* grid-column: 1 / 1; */
-  }
-  .landing-right{
-      /* grid-column: 2 / span 1;
-      margin: 0 auto; */
   }
   .overmij-content{
     width: 605px;

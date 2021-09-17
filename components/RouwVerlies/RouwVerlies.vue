@@ -92,6 +92,7 @@ export default {
     height: 550px;
     margin: 0 auto;
     border: 4px solid #043652;
+      margin-top: 100px;
   }
 
   .title-container{

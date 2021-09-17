@@ -1,5 +1,6 @@
 <template lang="html">
   <section class="contact">
+    <div class="contact-bg">
     <div class="title-container">
       <h1 class="contact-title">Contact</h1>
       <hr class="contact-underline">
@@ -41,7 +42,7 @@
       </div>
 
     </section>
-
+    </div>
 </section>
 
 </template>
@@ -55,7 +56,7 @@ export default {
 *{
   text-align: left;
 }
-.contact{
+.contact-bg{
   min-height: 100vh;
   background-image: url('@/assets/img/contactbg.png');
   background-position: top;
