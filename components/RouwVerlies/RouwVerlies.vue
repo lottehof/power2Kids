@@ -1,5 +1,5 @@
 <template lang="html">
-  <section>
+  <section class="rouwenverlies">
     <article class="rouw-container-one">
       <div class="rouw-content-one">
         <div class="title-container">
@@ -28,6 +28,12 @@ export default {
 .rouw-container-one{
   display: block;
   width: 100%;
+}
+.rouwenverlies{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .rouw-content-one{
   width: 90%;
@@ -81,34 +87,30 @@ export default {
 
 @media (min-width: 1100px) {
   .rouw-container-one{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 1160px;
+    width: 55%;
+    padding: 5px;
+    height: 550px;
     margin: 0 auto;
-    column-gap: 100px;
+    border: 4px solid #043652;
   }
-  .rouw-content-one{
-    grid-column: 2 / span 1;
-    grid-row: span 1 ;
-    margin: 0;
-  }
+
   .title-container{
-    width: 230px;
+
   }
   .rouw-title{
     font-size: 36px;
-    width: 500px;
-    text-align: left;
+    /* width: 500px;
+    text-align: left; */
   }
-  .rouw-underline{
+  /* .rouw-underline{
     width: 200px;
-  }
+  } */
   .rouw-sub-title{
     font-size: 18px;
   }
   .rouw-content-p{
-    font-size: 14px;
-    width: 500px;
+    font-size: 16px;
+    /* width: 500px; */
   }
   .line{
     width: 60%;

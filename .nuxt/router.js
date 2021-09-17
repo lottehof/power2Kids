@@ -4,13 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _392bd6fb = () => interopDefault(import('../pages/aanbod/index.vue' /* webpackChunkName: "pages/aanbod/index" */))
-const _2a3febc4 = () => interopDefault(import('../pages/aanpak/index.vue' /* webpackChunkName: "pages/aanpak/index" */))
-const _536efda4 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
-const _35614c04 = () => interopDefault(import('../pages/overmij/index.vue' /* webpackChunkName: "pages/overmij/index" */))
-const _005d3b4e = () => interopDefault(import('../pages/rouw&verlies/index.vue' /* webpackChunkName: "pages/rouw&verlies/index" */))
-const _3a33407b = () => interopDefault(import('../pages/succesverhalen/index.vue' /* webpackChunkName: "pages/succesverhalen/index" */))
-const _3217945a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _4f59910e = () => interopDefault(import('../pages/aanbod/index.vue' /* webpackChunkName: "pages/aanbod/index" */))
+const _ebf12ac8 = () => interopDefault(import('../pages/aanpak/index.vue' /* webpackChunkName: "pages/aanpak/index" */))
+const _cd98a634 = () => interopDefault(import('../pages/contact/index.vue' /* webpackChunkName: "pages/contact/index" */))
+const _2b140940 = () => interopDefault(import('../pages/overmij/index.vue' /* webpackChunkName: "pages/overmij/index" */))
+const _757c2752 = () => interopDefault(import('../pages/rouw&verlies/index.vue' /* webpackChunkName: "pages/rouw&verlies/index" */))
+const _65a942f9 = () => interopDefault(import('../pages/succesverhalen/index.vue' /* webpackChunkName: "pages/succesverhalen/index" */))
+const _8e9571d6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/aanbod",
-    component: _392bd6fb,
+    component: _4f59910e,
     name: "aanbod"
   }, {
     path: "/aanpak",
-    component: _2a3febc4,
+    component: _ebf12ac8,
     name: "aanpak"
   }, {
     path: "/contact",
-    component: _536efda4,
+    component: _cd98a634,
     name: "contact"
   }, {
     path: "/overmij",
-    component: _35614c04,
+    component: _2b140940,
     name: "overmij"
   }, {
     path: "/rouw&verlies",
-    component: _005d3b4e,
+    component: _757c2752,
     name: "rouw&verlies"
   }, {
     path: "/succesverhalen",
-    component: _3a33407b,
+    component: _65a942f9,
     name: "succesverhalen"
   }, {
     path: "/",
-    component: _3217945a,
+    component: _8e9571d6,
     name: "index"
   }],
 

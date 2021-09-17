@@ -187,6 +187,7 @@ export default {
 @media (min-width: 1300px) {
   .overmij{
     min-height: 100vh;
+    
   }
   .overmij-container{
     width: 100vw;

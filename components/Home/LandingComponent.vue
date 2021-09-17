@@ -1,13 +1,13 @@
 <template lang="html">
   <div class="landing-box">
     <div class="landing-container">
-      <!-- <div class="landing-left"> -->
+      <div class="landing-left">
         <!-- <div class="image-container"> -->
           <figure>
             <img class="landing-image" :src="blok.image" alt="Hanne">
           </figure>
         <!-- </div> -->
-      <!-- </div> -->
+      </div>
       <div class="landing-right">
         <div class="context">
         <div class="overmij-content">
@@ -53,9 +53,9 @@ export default {
   display: grid;
   grid-template-columns:  1fr;
 }
-.landing-left{
+/* .landing-left{
   grid-row: 2;
-}
+} */
 .landing-image{
   width: 90%;
   height: 90%;
@@ -174,13 +174,14 @@ figure{
     width: 100vw;
     display: grid;
     height: 100vh;
+    grid-template-columns: 1fr 1fr;
     /* grid-template-columns: auto auto; */
   }
   figure{
-    position: absolute;
+    /* position: absolute; */
     height: 100vh;
-    left: 0px;
-    top: 0px;
+    /* left: 0px;
+    top: 0px; */
     margin-top: 0;
   }
   .landing-title{
@@ -205,16 +206,23 @@ figure{
     height: auto;
   }
   .landing-image{
-    position: absolute;
+    /* position: absolute; */
     width: auto;
     height: 100vh;
     left: 0px;
     top: 0px;
+    grid-column: 1 / span 1;
   }
   .landing-right{
     grid-column: 2 / span 1;
     margin: 0 auto;
     width: calc(100vw - 659px);
+  }
+  .landing-right{
+    grid-column: 2 / span 1;
+    margin: 0 auto;
+    margin-top: 80px;
+      /* width: calc(100vw - 659px); */
   }
 
   .button-container{
@@ -251,12 +259,13 @@ figure{
     .landing-right{
       grid-column: 2 / span 1;
       margin: 0 auto;
+      margin-top: 80px;
         /* width: calc(100vw - 659px); */
     }
   }
 @media (min-width: 1800px) {
   .landing-image{
-    position: absolute;
+    /* position: absolute; */
     width: auto;
     /* height: 1010px; */
     left: 0px;
@@ -266,7 +275,11 @@ figure{
   .landing-right{
       grid-column: 2 / span 1;
       margin: 0 auto;
-      width: calc(100vw - 769px);
+  }
+  .overmij-content{
+    width: 605px;
+    height: 180px;
+    margin-top: 20%;
   }
 }
 

@@ -138,7 +138,7 @@ export default {
   .nav {
     width: 100vw;
     background-color: transparent;
-    position: relative;
+    position: absolute;
     margin-top: 20px;
     margin-right: 0;
   }

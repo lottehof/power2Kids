@@ -119,6 +119,7 @@ hr, body{
   line-height: 21px;
   white-space: pre-line;
   margin-top: 20px;
+  padding-bottom: 50px;
 }
 .losconsult{
   height: 300px;
@@ -147,6 +148,7 @@ hr, body{
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 10px;
+    width: 530px;
   }
   .rouw-content-p h3{
       font-size: 18px;

@@ -1,5 +1,6 @@
 <template lang="html">
-  <section>
+  <section >
+        <hr class="line">
     <article class="rouw-container-three">
       <div class="rouw-content">
         <figure>
@@ -45,7 +46,15 @@ figure{
   margin: 0 auto;
   text-align: center;
 }
-
+.line{
+  height: 2px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: none;
+  background-color: #9490A7;
+  margin-bottom: 20px;
+}
 @media (min-width: 1100px) {
   .rouw-container-three{
     display: grid;
@@ -64,6 +73,9 @@ figure{
     width: 500px;
     height: auto;
     margin-top: 30px;
+  }
+  .line{
+    width: 60%;
   }
 }
 </style>

@@ -175,6 +175,9 @@ export default {
     margin-bottom: 10px;
     text-align: center;
   }
+  .contact{
+    margin-top: 100px;
+  }
 
   .contact-content{
     width: 100vw;

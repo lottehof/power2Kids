@@ -1,5 +1,5 @@
 <template lang="html">
-  <section>
+  <section class="traject">
     <article class="aanpak-container-two">
       <div class="aanpak-content-two">
           <section class="aanpak-listitems second"  v-html="$options.filters.markdown(blok.content_two)"></section>
@@ -10,7 +10,6 @@
         </figure>
       </div>
     </article>
-    <hr class="line">
   </section>
 </template>
 
@@ -29,6 +28,12 @@ export default {
 .aanpak-container-two{
   display: block;
   width: 100%;
+
+}
+.traject{
+    background-color: #D3D1DB;
+    margin: 10px 0;
+    padding-bottom: 20px;
 }
 .aanpak-content-two{
   width: 90%;
@@ -52,6 +57,9 @@ export default {
 }
 .hoewerkik-image{
   width: 90%;
+}
+.second{
+  padding-top: 30px;
 }
 .line{
   height: 2px;

@@ -1,5 +1,5 @@
 <template lang="html">
-  <section>
+  <section class="rouw-1">
     <section class="rouwverlies">
       <div class="white-background">
       <RouwVerlies
@@ -79,11 +79,12 @@ export default {
 @media (min-width:1100px) {
   .rouwverlies{
     min-height: 100vh;
-    background-image: url('@/assets/img/r&vbg.png');
+    /* background-image: url('@/assets/img/r&vbg.png'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+    margin-top: 100px;
   }
 }
 </style>

@@ -1,5 +1,5 @@
 <template lang="html">
-  <section>
+  <section class="aanbod-1">
     <section class="aanbod">
       <div class="white-background">
       <AanbodInfo
@@ -92,6 +92,9 @@ export default {
 
   .white-background{
     background-color: transparent;
+  }
+  .aanbod-1{
+    margin-top: 100px;
   }
 }
 </style>

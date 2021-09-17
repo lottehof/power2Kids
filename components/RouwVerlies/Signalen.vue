@@ -1,5 +1,5 @@
 <template lang="html">
-  <section>
+  <section class="begeleiding">
     <article class="rouw-container-two">
       <div class="rouw-content-two">
           <section class="aanpak-listitems second fourth"  v-html="$options.filters.markdown(blok.content_two)"></section>
@@ -10,7 +10,6 @@
         </figure>
       </div>
     </article>
-    <hr class="line">
   </section>
 </template>
 
@@ -33,6 +32,11 @@ export default {
 .rouw-content-two{
   width: 90%;
   margin: 0 auto;
+}
+.begeleiding{
+    background-color: #D3D1DB;
+    margin: 10px 0;
+    padding-bottom: 20px;
 }
 .rouw-sub-title{
   font-size: 14px;

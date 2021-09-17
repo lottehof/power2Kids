@@ -1,5 +1,5 @@
 <template lang="html">
-  <section>
+  <section class="aanpak-1">
     <article class="aanpak-container-one">
       <div class="aanpak-content-one">
         <div class="title-container">
@@ -25,13 +25,21 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.aanpak-1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 .aanpak-container-one{
   display: block;
   width: 100%;
 }
 .aanpak-content-one{
-  width: 90%;
+  width: 95%;
+  padding: 5px;
   margin: 0 auto;
+  border: 2px solid #043652;
 }
 .aanpak-title{
   font-size: 20px;
@@ -76,34 +84,29 @@ export default {
 }
 
 @media (min-width: 1200px) {
-  .aanpak-container-one{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 1160px;
-    margin: 0 auto;
-    column-gap: 100px;
-  }
-  .aanpak-content-one{
-    grid-column: 2 / span 1;
-    grid-row: span 1 ;
-  }
-  .aanpak-content-one{
-    margin:0;
-  }
-  .title-container{
-    width: 230px;
-    margin-top: 30px;
-  }
+
   .aanpak-title{
     font-size: 36px;
-    width: 230px;
+
   }
-  .aanpak-underline{
-    width: 150px;
+
+  .aanpak-content-one{
+    width: 55%;
+    padding: 5px;
+    height: 750px;
+    margin: 0 auto;
+    border: 4px solid #043652;
+  }
+  .aanpak-listitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
   .aanpak-content-p{
     font-size: 14px;
-    width: 530px;
+
   }
   .first{
     margin-bottom: 100px;

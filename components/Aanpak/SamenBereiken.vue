@@ -1,5 +1,6 @@
 <template lang="html">
   <section>
+    <hr class="line">
     <article class="aanpak-container-three">
       <div class="aanpak-content">
         <figure>
@@ -46,6 +47,15 @@ figure{
   text-align: center;
 }
 
+.line{
+  height: 2px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: none;
+  background-color: #9490A7;
+}
+
 @media (min-width:1200px) {
 .aanpak-container-three{
   display: grid;
@@ -85,6 +95,9 @@ figure{
 .listitem{
   width: 493px;
   font-size: 14px;
+}
+.line{
+  width: 60%;
 }
 }
 </style>
