@@ -2,11 +2,9 @@
   <div class="landing-box">
     <div class="landing-container">
       <div class="landing-left">
-        <!-- <div class="image-container"> -->
-          <figure>
+          <!-- <figure> -->
             <img class="landing-image" :src="blok.image" alt="Hanne">
-          </figure>
-        <!-- </div> -->
+          <!-- </figure> -->
       </div>
       <div class="landing-right">
         <div class="context">
@@ -53,9 +51,12 @@ export default {
   display: grid;
   grid-template-columns:  1fr;
 }
-/* .landing-left{
-  grid-row: 2;
-} */
+.landing-left{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .landing-image{
   width: 90%;
   height: 90%;
@@ -172,17 +173,13 @@ figure{
 @media (min-width:1300px) {
   .landing-container{
     width: 100vw;
-    display: grid;
+    display: flex;
     height: 100vh;
-    grid-template-columns: 1fr 1fr;
-    /* grid-template-columns: auto auto; */
   }
   figure{
-    /* position: absolute; */
     height: 100vh;
-    /* left: 0px;
-    top: 0px; */
     margin-top: 0;
+    float: left;
   }
   .landing-title{
     margin-bottom: 40px;
@@ -211,18 +208,19 @@ figure{
     height: 100vh;
     left: 0px;
     top: 0px;
-    grid-column: 1 / span 1;
+
+  }
+  .landing-left{
+    width: auto;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
   }
   .landing-right{
-    grid-column: 2 / span 1;
-    margin: 0 auto;
-    width: calc(100vw - 659px);
-  }
-  .landing-right{
-    grid-column: 2 / span 1;
-    margin: 0 auto;
+    width: 100%;
     margin-top: 80px;
-      /* width: calc(100vw - 659px); */
+
   }
 
   .button-container{
@@ -241,7 +239,7 @@ figure{
   .overmij-content{
     width: 605px;
     height: 180px;
-    margin-top: 50px;
+    margin-top: 100px;
   }
   .overmij-title{
     font-size: 40px;
@@ -257,29 +255,27 @@ figure{
 }
   @media (min-width: 1500px) {
     .landing-right{
-      grid-column: 2 / span 1;
-      margin: 0 auto;
+      /* grid-column: 2 / span 1; */
+      /* margin: 0 auto; */
       margin-top: 80px;
-  
+
     }
   }
 @media (min-width: 1800px) {
   .landing-image{
-    /* position: absolute; */
     width: auto;
-    /* height: 1010px; */
     left: 0px;
     top: 0px;
-    grid-column: 1 / 1;
+    /* grid-column: 1 / 1; */
   }
   .landing-right{
-      grid-column: 2 / span 1;
-      margin: 0 auto;
+      /* grid-column: 2 / span 1;
+      margin: 0 auto; */
   }
   .overmij-content{
     width: 605px;
     height: 180px;
-    margin-top: 20%;
+    margin-top: 100px;
   }
 }
 
