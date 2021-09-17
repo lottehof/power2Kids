@@ -143,17 +143,18 @@ hr, body{
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 10px;
+    text-align: left;
   }
   .rouw-content-p h3{
       font-size: 18px;
   }
   .aanpak-listitems ul li{
     font-size: 16px;
-    width: 515px;
+    width: 100%;
   }
   .aanpak-listitems p{
     font-size: 16px;
-    width: 530px;
+    width: 100%;
     margin-bottom: 100px;
   }
   .second p{

@@ -3,42 +3,49 @@
     "name": "aanbod",
     "path": "/aanbod",
     "component": "/Users/lottevanthof/Desktop/school/Jaar 3 School/stage/stage Dutchdrops/Website-code/Power2Kids/Power2Kids/power2Kids/pages/aanbod/index.vue",
-    "chunkName": "pages/aanbod/index"
+    "chunkName": "pages/aanbod/index",
+    "_name": "_4f59910e"
   },
   {
     "name": "aanpak",
     "path": "/aanpak",
     "component": "/Users/lottevanthof/Desktop/school/Jaar 3 School/stage/stage Dutchdrops/Website-code/Power2Kids/Power2Kids/power2Kids/pages/aanpak/index.vue",
-    "chunkName": "pages/aanpak/index"
+    "chunkName": "pages/aanpak/index",
+    "_name": "_ebf12ac8"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/Users/lottevanthof/Desktop/school/Jaar 3 School/stage/stage Dutchdrops/Website-code/Power2Kids/Power2Kids/power2Kids/pages/contact/index.vue",
-    "chunkName": "pages/contact/index"
+    "chunkName": "pages/contact/index",
+    "_name": "_cd98a634"
   },
   {
     "name": "overmij",
     "path": "/overmij",
     "component": "/Users/lottevanthof/Desktop/school/Jaar 3 School/stage/stage Dutchdrops/Website-code/Power2Kids/Power2Kids/power2Kids/pages/overmij/index.vue",
-    "chunkName": "pages/overmij/index"
+    "chunkName": "pages/overmij/index",
+    "_name": "_2b140940"
   },
   {
     "name": "rouw&verlies",
     "path": "/rouw&verlies",
     "component": "/Users/lottevanthof/Desktop/school/Jaar 3 School/stage/stage Dutchdrops/Website-code/Power2Kids/Power2Kids/power2Kids/pages/rouw&verlies/index.vue",
-    "chunkName": "pages/rouw&verlies/index"
+    "chunkName": "pages/rouw&verlies/index",
+    "_name": "_757c2752"
   },
   {
     "name": "succesverhalen",
     "path": "/succesverhalen",
     "component": "/Users/lottevanthof/Desktop/school/Jaar 3 School/stage/stage Dutchdrops/Website-code/Power2Kids/Power2Kids/power2Kids/pages/succesverhalen/index.vue",
-    "chunkName": "pages/succesverhalen/index"
+    "chunkName": "pages/succesverhalen/index",
+    "_name": "_65a942f9"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/lottevanthof/Desktop/school/Jaar 3 School/stage/stage Dutchdrops/Website-code/Power2Kids/Power2Kids/power2Kids/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_8e9571d6"
   }
 ]

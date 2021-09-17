@@ -148,7 +148,7 @@ hr, body{
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 10px;
-    width: 530px;
+    text-align: left;
   }
   .rouw-content-p h3{
       font-size: 18px;

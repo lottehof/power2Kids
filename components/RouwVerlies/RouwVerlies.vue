@@ -89,7 +89,7 @@ export default {
   .rouw-container-one{
     width: 55%;
     padding: 5px;
-    height: 550px;
+    height: auto;
     margin: 0 auto;
     border: 4px solid #043652;
       margin-top: 100px;
@@ -100,6 +100,7 @@ export default {
   }
   .rouw-title{
     font-size: 36px;
+    padding-top: 30px;
     /* width: 500px;
     text-align: left; */
   }

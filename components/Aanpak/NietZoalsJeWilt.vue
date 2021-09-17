@@ -88,22 +88,24 @@ export default {
 
   .aanpak-title{
     font-size: 36px;
+    padding-top: 30px;
 
   }
 
   .aanpak-content-one{
     width: 55%;
     padding: 5px;
-    height: 750px;
+    height: 550px;
     margin: 0 auto;
     border: 4px solid #043652;
   }
   .aanpak-listitems{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 0 20px;
   }
   .aanpak-content-p{
     font-size: 14px;
