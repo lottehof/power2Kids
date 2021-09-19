@@ -2,11 +2,6 @@
   <section>
     <hr class="line">
     <article class="aanpak-container-three">
-      <div class="aanpak-content">
-        <figure>
-          <img :src="blok.image_two" alt="twee kindjes hand in hand" class="hoewerkik-image second">
-        </figure>
-      </div>
       <div class="aanpak-content-three">
           <section class="aanpak-listitems second"  v-html="$options.filters.markdown(blok.content_three)"></section>
       </div>
@@ -58,11 +53,13 @@ figure{
 
 @media (min-width:1200px) {
 .aanpak-container-three{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 1160px;
+  width: 55%;
+  padding: 5px;
+  height: auto;
   margin: 0 auto;
-  column-gap: 100px;
+  border: 4px solid #043652;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .aanpak-content-three{
   margin: 0;

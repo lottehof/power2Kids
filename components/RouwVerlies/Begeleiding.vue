@@ -1,12 +1,12 @@
 <template lang="html">
-  <section >
+  <section class="signalen" >
         <hr class="line">
     <article class="rouw-container-three">
-      <div class="rouw-content">
+      <!-- <div class="rouw-content">
         <figure>
           <img :src="blok.image_two" alt="meisje met bloem in hand" class="hoewerkik-image second">
         </figure>
-      </div>
+      </div> -->
       <div class="rouw-content-three">
         <section class="aanpak-listitems second"  v-html="$options.filters.markdown(blok.content_three)"></section>
       </div>
@@ -35,6 +35,7 @@ export default {
   margin-top: 20px;
   display: none;
 }
+
 .hoewerkik-image{
   width: 90%;
 }
@@ -57,11 +58,12 @@ figure{
 }
 @media (min-width: 1100px) {
   .rouw-container-three{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 1160px;
+    width: 55%;
+    padding: 5px;
+    height: auto;
     margin: 0 auto;
-    column-gap: 100px;
+    border: 4px solid #043652;
+    margin-top: 50px;
   }
   .rouw-content{
     display: block;

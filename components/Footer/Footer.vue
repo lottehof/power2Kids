@@ -9,7 +9,7 @@
       <a class="link" href="https://www.linkedin.com/in/hannevanwilligenburg/" target="_blank">
       <i class="fab fa-linkedin-in" ></i>
       </a>
-      <a  class="link" href="https://www.instagram.com/praktijk_power2kids/" target="_blank">
+      <a  class="link" href="https://www.instagram.com/hanne.vanwilligenburg/" target="_blank">
       <i class="fab fa-instagram" href="https://www.instagram.com/praktijk_power2kids/" target="_blank"></i>
       </a>
     </div>
@@ -21,7 +21,7 @@
         <li>Hanne van Willigenburg</li>
         <li href="tel://+31652638537">+31(6)52638537</li>
         <li onclick="window.location.href='mailto:Hanne@POWER2Kids.nl'">Hanne@POWER2Kids.nl</li>
-        <li class="last-listitem" onclick="window.location.href='https://www.google.com/maps/dir//Bredeweg+9,+1098+BR+Amsterdam/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47c609706cbbf0b7:0x1e35304ab9750498?sa=X&ved=2ahUKEwj-wtjNvIfxAhWNEBQKHSCpB-YQwwUwAHoECAYQAw'">Bredeweg 9-3, 1098 BR Amsterdam</li>
+        <li class="last-listitem" onclick="window.location.href='https://www.google.com/maps/place/Bredeweg,+1098+BL+Amsterdam/@52.3556104,4.9279784,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609700d75c04d:0x429a4481281ebedd!8m2!3d52.3556104!4d4.9301671'">Bredeweg 9-3, 1098BL Amsterdam</li>
       </ul>
     </div>
 

@@ -34,13 +34,12 @@ export default {
 .aanpak-container-one{
   display: block;
   width: 100%;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 .aanpak-content-one{
   width: 95%;
   padding: 5px;
   margin: 0 auto;
-  border: 2px solid #043652;
 }
 .aanpak-title{
   font-size: 20px;
@@ -98,6 +97,7 @@ export default {
     height: 550px;
     margin: 0 auto;
     border: 4px solid #043652;
+      margin-top: 100px;
   }
   .aanpak-listitems{
     /* display: flex; */

@@ -63,7 +63,7 @@ hr, body{
   font-style: normal;
   font-weight: normal;
   line-height: 21px;
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 10px;
 }
 .second h3{
@@ -163,6 +163,7 @@ hr, body{
   .fourth h3{
     font-size: 18px;
     margin-top: 40px;
+    padding: 0;
   }
   .aanbod-listitems-pakket ul {
     margin: 0 auto;

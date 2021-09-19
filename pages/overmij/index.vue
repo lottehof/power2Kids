@@ -9,7 +9,7 @@
 
       <section class="overmij-content-article" v-html="$options.filters.markdown(story.content.content)"></section>
       <div class="socialmedia-icons">
-        <a class="link" href="https://www.instagram.com/praktijk_power2kids/" target="_blank">
+        <a class="link" href="https://www.instagram.com/hanne.vanwilligenburg/" target="_blank">
         <i class="fab fa-instagram"></i>
         </a>
         <a class="link" href="https://www.linkedin.com/in/hannevanwilligenburg/" target="_blank">
@@ -187,7 +187,7 @@ export default {
 @media (min-width: 1300px) {
   .overmij{
     min-height: 100vh;
-    
+
   }
   .overmij-container{
     width: 100vw;
