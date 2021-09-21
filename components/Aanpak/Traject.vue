@@ -59,7 +59,7 @@ export default {
   width: 90%;
 }
 .second{
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 .line{
   height: 2px;
@@ -98,7 +98,7 @@ figure{
   .hoewerkik-image{
     width: 530px;
     height: 454px;
-    margin-top: 30px;
+    margin-top: 70px;
   }
   .line{
     width: 60%;

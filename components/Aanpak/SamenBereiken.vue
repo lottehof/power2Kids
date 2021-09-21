@@ -96,5 +96,13 @@ figure{
 .line{
   width: 60%;
 }
+.aanpak-listitems{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0 20px;
+}
 }
 </style>

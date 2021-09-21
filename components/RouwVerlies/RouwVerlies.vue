@@ -94,6 +94,9 @@ export default {
     border: 4px solid #043652;
     margin-top: 100px;
   }
+  .rouw-content-one{
+    width: 100%;
+  }
 
   .title-container{
 
@@ -112,6 +115,11 @@ export default {
   }
   .rouw-content-p{
     font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 20px;
     /* width: 500px; */
   }
   .line{

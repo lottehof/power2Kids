@@ -36,8 +36,7 @@
 
         <div class="contact-listitem">
           <img class="icon" src="@/assets/img/placeholder.svg" alt="location icon">
-          <p class="contact-listitem-p" onclick="window.location.href='https://www.google.com/maps/dir//Bredeweg+9,+1098+BR+Amsterdam/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47c609706cbbf0b7:0x1e35304ab9750498?sa=X&ved=2ahUKEwj-wtjNvIfxAhWNEBQKHSCpB-YQwwUwAHoECAYQAw'">Bredeweg 9-3, 1098
-            BR Amsterdam</p>
+          <p class="contact-listitem-p" onclick="window.location.href='https://www.google.com/maps/place/Bredeweg,+1098+BL+Amsterdam/@52.3556104,4.9279784,17z/data=!3m1!4b1!4m5!3m4!1s0x47c609700d75c04d:0x429a4481281ebedd!8m2!3d52.3556104!4d4.9301671'">Bredeweg 9-3, 1098BL Amsterdam</p>
         </div>
       </div>
 
