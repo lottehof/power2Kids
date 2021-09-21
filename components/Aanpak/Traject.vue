@@ -59,7 +59,7 @@ export default {
   width: 90%;
 }
 .second{
-  /* padding-top: 30px; */
+  padding-top: 30px;
 }
 .line{
   height: 2px;
@@ -94,6 +94,9 @@ figure{
   .aanpak-content-p{
     font-size: 14px;
     width: 530px;
+  }
+  .second{
+    padding-top: 0px;
   }
   .hoewerkik-image{
     width: 530px;

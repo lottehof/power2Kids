@@ -17,6 +17,9 @@
   "Review": {
     "description": "Auto imported from components/Review.vue"
   },
+  "Footer": {
+    "description": "Auto imported from components/Footer/Footer.vue"
+  },
   "AanpakNietZoalsJeWilt": {
     "description": "Auto imported from components/Aanpak/NietZoalsJeWilt.vue"
   },
@@ -34,9 +37,6 @@
   },
   "AanbodPakketten": {
     "description": "Auto imported from components/Aanbod/Pakketten.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/Footer/Footer.vue"
   },
   "HomeHulpIdeaalComponent": {
     "description": "Auto imported from components/Home/HulpIdeaalComponent.vue"
@@ -68,18 +68,6 @@
   "NavigationAppLinks": {
     "description": "Auto imported from components/Navigation/appLinks.vue"
   },
-  "RouwVerliesBegeleiding": {
-    "description": "Auto imported from components/RouwVerlies/Begeleiding.vue"
-  },
-  "RouwVerlies": {
-    "description": "Auto imported from components/RouwVerlies/RouwVerlies.vue"
-  },
-  "RouwVerliesSignalen": {
-    "description": "Auto imported from components/RouwVerlies/Signalen.vue"
-  },
-  "SuccesverhalenReview": {
-    "description": "Auto imported from components/Succesverhalen/Review.vue"
-  },
   "OvermijNavigationTheHeaderOvermij": {
     "description": "Auto imported from components/OvermijNavigation/TheHeaderOvermij.vue"
   },
@@ -88,5 +76,17 @@
   },
   "OvermijNavigationAppLinksOverMij": {
     "description": "Auto imported from components/OvermijNavigation/appLinksOverMij.vue"
+  },
+  "SuccesverhalenReview": {
+    "description": "Auto imported from components/Succesverhalen/Review.vue"
+  },
+  "RouwVerliesBegeleiding": {
+    "description": "Auto imported from components/RouwVerlies/Begeleiding.vue"
+  },
+  "RouwVerlies": {
+    "description": "Auto imported from components/RouwVerlies/RouwVerlies.vue"
+  },
+  "RouwVerliesSignalen": {
+    "description": "Auto imported from components/RouwVerlies/Signalen.vue"
   }
 }
